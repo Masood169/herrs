@@ -1,0 +1,710 @@
+<section class="section section--page page">
+	<div class="container container--medium">
+		
+
+        <div class="page__content rte">
+      		
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herr's ecomm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      
+        
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                    @font-face {
+                      font-family: "Font name";
+                      src: url("{{ '[Calderock Regular.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2FCalderock+Regular.ttf }}") format("[font-format]");
+                    }
+
+                    @font-face {
+                      font-family: "Font name";
+                      src: url("{{ '[fredoka-one.one-regular.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2Ffredoka-one.one-regular.ttf }}") format("[font-format]");
+                    }
+
+                    @font-face {
+                      font-family: "Font name";
+                      src: url("{{ '[Poppins Regular 400.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2FPoppins+Regular+400.ttf }}") format("[font-format]");
+                    }
+
+                .sec-h1{
+                font-size: 35px;
+                color:white;
+                font-family: Fredoka !important;
+                font-weight: 700 !important;
+                }
+                .sec-h1 span{
+                font-size: 45px;
+                }
+
+      
+                .l-head {
+                color: white;
+                margin: 0;
+                padding: 0px 10px 0px 10px;
+                }
+
+                .l-btn{
+                    background-color: #C42129;
+                    color: white;
+                    border-radius: 10px;
+                    padding: 15px 35px;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: bold;
+                    position:absolute;
+                    right: 5%;
+                    top: 32px;
+                    border: 0;
+                }
+                .h_img{
+                    position: relative;
+                    width: 160px;
+                    z-index:1;
+                    left: 0px;
+                }
+                .section-head {
+                
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    background: url("https://cdn.shopify.com/s/files/1/0515/2047/1229/files/v220_17_430x.jpg?v=1687366486#");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;    
+                    max-height: 396px;
+                    }
+                    .col-text {
+                        height:20em;
+                    }
+                    .grid-flex {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                        -webkit-flex-grow: 1;
+                        -ms-flex-positive: 1;
+                        flex-grow: 1;
+                        flex-direction: row; 
+                        -webkit-flex-direction: row;
+                        -webkit-flex-wrap: wrap;
+                        -webkit-justify-content: space-around;
+                        
+                    }
+                    .col {
+                        -webkit-box-flex: 1;
+                        -webkit-flex: 1;
+                        -ms-flex: 1;
+                        flex: 1 0 60%;
+                    }
+                    .col-left {
+                        -webkit-box-ordinal-group:-1;
+                        -webkit-order: -1;
+                        -ms-flex-order: -1;
+                        order: -1;
+                    }
+                    .col-text{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .Aligner-item {
+                        width: 75%;
+                    }
+                    .col-image {
+                        background-size: cover;
+                        background-position:center center;
+                        width: 100%;
+                    }
+                    .button-left{
+                        background-color: #C42129;
+                        color: white;
+                        border-radius: 10px;
+                        padding: 15px 35px;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: bold;
+                        top: 32px;
+                        border: 0;
+                    }
+
+                  .button-left-new{
+                        background-color: #C42129;
+                        color: white;
+                        border-radius: 10px;
+                        padding: 15px 80px;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: bold;
+                        top: 32px;
+                        border: 0;
+                    }
+                  .button-top{
+                        background-color: #C42129;
+                        color: white;
+                        border-radius: 10px;
+                        padding: 15px 35px;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: bold;
+                        top: 32px;
+                        border: 0;
+                    }
+                  h2{
+                    color: black;
+                    
+                    
+                  }
+
+                    @media (max-width: 640px) {
+                        .grid-flex {
+                            height: 40em;
+                            display: -webkit-flex;
+                            -webkit-flex-direction: column;
+                            flex-direction: column; 
+                        }
+                        .col {
+                            order:vertical;
+                        }
+                        .col-left {
+                            -webkit-box-ordinal-group:0;
+                            -webkit-order: 0;
+                            -ms-flex-order: 0;
+                            order: 0;
+                        }
+                        .col-text div p {
+                        }
+
+                        .col-text h1{
+                            margin-top:0;
+                        }
+
+                        .Aligner-item {
+                            width: 90%;
+                            text-align: center;
+                        }
+                        .col-image{
+                            width: 100%;
+                            bottom: 57px;
+                            position: relative;
+                        }
+                        section{
+                            height: auto;
+                        }
+                        .l-btn{  
+                            padding: 15px;
+                            position: absolute;
+                            right: 25px;
+                            top: 14px;
+                            border: 0;
+                            font-size: 14px;}
+
+                        .h_img {
+                            position: relative;
+                            width: 100px;
+                            z-index: 1;
+                        }
+                        }
+
+                         @import url(https://fonts.googleapis.com/css?family=Raleway);
+                    .card-narrow-div p{
+                    font-weight: bold;
+                    }
+                    .paragraph--type--card-narrow-row {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-flow: row wrap;
+/*                     margin-top:100px; */
+                    }
+
+                    .card-narrow {
+                    width: 220px;
+                    /* border: 1px solid #ccc; */
+                    margin: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    border-radius: 30px;
+                    /* background-color: #ccc; */
+                    } 
+
+                    .card-narrow-image img {height: 300px;z-index: 9999999999999999999999999;
+    position: relative;}
+                    .card-narrow h3 {
+                        margin: 0;
+                        padding: 10px 0;
+                        text-align: center;
+                        line-height: 0.2;
+                        font-family: "Raleway",Arial,Helvetica,sans-serif;
+                        width: 100%;
+                        display: inline-block;
+                        vertical-align: middle;
+                        cursor: pointer;
+                    }
+
+                    .card-narrow img:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                    }
+
+                    .card-narrow p {
+                    padding: 0 10px;
+                    font-family: Poppins;
+                    margin: 0;
+                    
+                    }
+
+                    .card-narrow-content {
+                    flex: 1 1 180px;
+                    }
+
+                    .card-btn{
+                        background-color: #C42129;
+                        color: white;
+                        border-radius: 10px;
+                        padding: 15px 35px;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: bold;
+                        top: 5px;
+                        border: 0;
+                        position: relative;
+                    }
+
+                    .card-narrow-div{
+                        
+                            background-color: #ccc;
+                            height: 185px;
+/*                             z-index: -99999999999999999999999999999999999; */
+                            bottom: 90px;
+                            position: relative;
+                            border-radius: 20px;
+                    }
+
+                 
+
+                    
+                    .logogrid { 
+                    display: grid;
+                    grid-template-columns: auto auto auto ;
+                    gap: 8px;
+                    background: rgb(255, 255, 255);
+                    width: 75%;
+                    }
+                    .logogrid > div {
+                    background: transparent; 
+                    padding: 8px;
+                    display: grid;
+                    place-items: center;
+                    }
+                    .logogrid > div::before {
+                    content: "";
+                    padding-top: 50%; 
+                    display: block;
+                    grid-area: 1 / 1 / 2 / 2;
+                    }
+                    
+                    .logogrid > div img {
+                    width: 75%;
+                    grid-area: 1 / 1 / 2 / 2;
+                    }
+
+                    .gridh2{
+                      font-family: Fredoka !important;
+                    }
+
+
+                    /* typography */
+                    .headerbar {
+                        width: 100%;
+                        background: #ffffff;
+                        padding: 5px 15px 10px;
+                        color: #000000;
+                        text-align: center;
+                    }
+                    
+                    .image-left{
+                        text-align: end;
+                    }
+                    .left-textbox{
+                        text-align: left;
+                        font-family: Poppins;
+                        background-color: white;
+                        width: 50%;
+                        
+                        
+                    }
+      .left-textbox1{
+                        text-align: left;
+                        font-family: Poppins;
+                        background-color: white;
+                        width: 50%;
+                        margin-left: 20px;
+                        
+                        
+                    }
+
+                    .row{
+                        width: 100%;
+                        margin-top: 50px !important;
+                        
+                    }
+                    .right-textbox{
+                        text-align: end;
+                        font-family: Poppins;
+                        background-color: white;
+                        
+
+                    }
+
+                    .responsive-two-column-grid {
+                            display:block;
+                        }
+
+                        /* columns */
+                        .responsive-two-column-grid > * {
+                            padding:1rem;
+                        }
+
+                        /* tablet breakpoint */
+                        @media (min-width:768px) {
+                            .responsive-two-column-grid {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                    .ftr{
+                        width: 100%;
+                        background-color: #C42129;
+                    }
+
+                    
+
+                                @media (min-width: 320px) and (max-width: 767px){
+                                    .image-left{
+                                        padding: 0px;
+                                        width: 100%;
+                                      margin-top: -80px;
+                                    }
+                                    .image-left img{
+                                        width: 100%;
+                                    }
+
+                                    .image-right{
+                                        width: 100%;
+                                        padding: 0px;
+                                    }
+                                    .image-right img{
+                                        width: 100%;
+                                    }
+                                    .left-textbox {
+                                    width: auto;
+/*                                     margin-left: 60px; */
+                                    text-align: center;
+                                }
+                                  .left-textbox1{
+                                    width: auto !important;
+                                    margin-left: 0px !important; 
+                                    text-align: center;
+                                }
+                                    .button-left{
+                                    margin-left: 0% !important;
+                                    width: 100%;
+                                    }
+                                    .button-left-new{
+                                    padding: 15px 35px;
+                                      width: 100%;
+                                    }
+                                  
+                                  .button-top{
+                                    width: 50%;
+                                    margin-bottom: 30px;
+                                    padding: 8px 10px;
+                                  }
+                                    
+                                    .right-textbox{
+                                    text-align: center;
+/*                                     margin-left: 20px;
+                                    margin-left: 60px;  */
+                                    
+                                    
+                                    }
+                                  .left-textbox1{
+                                    width: auto;
+                                    text-align: center;
+/*                                     margin-left: 20px;
+                                    margin-left: 60px;  */
+                                    
+                                    
+                                    }
+                                    .grid-flex{
+                                        height: auto;
+                                    }
+                                    .row{
+                                        width: 100%;
+                                        padding: 0px;
+
+                                    }
+
+                                  .section-head{
+                                        margin-top: 25px;
+                                    }
+
+                                .logogrid{
+                                  width: 100%;
+                                }
+
+                                .logogrid > div img {
+                                      width: 100%;
+                                      grid-area: 1 / 2 / 2 / 2;
+                                  }
+                                  .star{
+                                  margin-top: 35px !important;
+                                  }
+                                }                            
+                    @media (min-width: 768px) and (max-width: 1023px){
+                      .star{
+                                  margin-top: 35px !important;
+                                  }
+                      .paragraph--type--card-narrow-row {
+                        margin-top:100px; 
+                    }
+                    }
+                     @media (min-width: 768px) and (max-width: 1440px){
+                                    .left-textbox {
+                                    width: 60%;
+                                    margin-left: 20px;
+                                }
+                       .left-textbox1{
+                                    width: 100% !important;
+                                    margin-left: 20px !important;
+                                }
+                                    .button-left{
+                                    margin-left: 0% !important;
+
+                                    
+                                    }
+                                    .right-textbox{
+                                    text-align: justify;
+                                    width: 90%;
+                                    margin-left: 20px;
+                                    
+                                    }
+                                    .grid-flex{
+                                        height: auto;
+                                    }
+                                    .row{
+                                        width: auto;
+                                    }
+
+                                }
+
+                     @media only screen and (min-width: 1441px) {
+
+                        .left-textbox {
+                                    width: 50%;
+                                    margin-left: 20px;
+                                }
+                       .left-textbox1{
+                                    width: 50%;
+                                    margin-left: 20px;
+                                }
+
+
+                                    .paragraph--type--card-narrow-row{
+                                        width: 100%;
+                                    }
+                       .l-btn{
+                         right: 10%;
+                       }
+                                }
+
+                  @media only screen and (min-width: 1600px) {
+
+                    .l-btn{
+                         right: 17%;
+                       }
+                  }
+                    
+                  @media (min-width: 768px) and (max-width: 991px){
+
+                    .sec-h1{
+                        font-size: 20px;
+                    }
+                    .sec-h1 span {
+                        font-size: 30px;
+                    }
+                  }
+      .image-right{
+                    margin-top: -10px !important;
+                  }
+      .left-textbox1{
+                                    width: 50%;
+                                    margin-left: 200px;
+                                }
+    </style>
+
+</head>
+<body>
+    <header class="l-head">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <img class="h_img" src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/v246_2_430x.png?v=1687366485" alt="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+        <button class="l-btn"><a href="https://shop.herrs.com/" style="color:white;text-decoration:none !important;">BACK TO HERR's</a></button>
+    </header>
+    <section class="section-head">
+        <div class="grid-flex">
+            <div class="col col-text">
+                <div class="Aligner-item">
+                  <h1 class="sec-h1">WE’RE ALL ABOUT THE <span>SNACKING WIN!</span></h1>
+                  <p style="color:white; font-family:'Poppins'; font-size: 24px;"><strong>Wholesome snacks</strong> for the whole family.</p>
+                  <button class="button-top"><a href="#order-online" style="color:white;text-decoration:none !important;">Order Online</a></button>
+                </div>
+              </div>
+            <div class="col1">
+                <img class="col-image" src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/v430_2_430x.png?v=1687366793" alt="Image">
+            </div>
+          </div>
+
+          <div id="order-online" class="paragraph--type--card-narrow-row">
+
+        <div class="card-narrow">
+                 <div class="card-narrow-image"><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/v108_11_430x.png?v=1687371471" alt="clay pot with hand"></div>
+                 <div class="card-narrow-div">
+        <br>
+       <div class="card-narrow-content">  <h3><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/New-5-star_430x.png?v=1687371470#" class="star" style="margin-bottom: 10px;" alt=""></h3>
+         <p>Good Natured Selects Veg-ables!</p>
+        <button class="card-btn"><a href="https://shop.herrs.com/collections/good-natured-selectes/products/good-natured-selects-veg-ables?variant=38166708814013" style="color:white;text-decoration:none !important;">Order Online</a></button>
+           </div>
+         </div>
+        </div>
+
+            <div class="card-narrow">
+                 <div class="card-narrow-image"><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/new1-removebg-preview_430x.png?v=1688123941" alt="toys"></div>
+                 <div class="card-narrow-div">
+        <br>
+         <div class="card-narrow-content">
+        <h3><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/New-5-star_430x.png?v=1687371470#" class="star" style="margin-bottom: 10px;" alt=""></h3>
+           <p>Good Natured Selects White Cheddar Puffs</p>
+        <button class="card-btn"><a href="https://shop.herrs.com/products/good-natured-selects-white-cheddar-puffs-1" style="color:white;text-decoration:none !important;">Order Online</a></button>
+           
+                </div>
+            </div>
+      </div>
+      
+        <div class="card-narrow">
+                 <div class="card-narrow-image"><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/v108_73_430x.png?v=1687371471" alt="books"></div>
+                 <div class="card-narrow-div">
+        <br>
+        <div class="card-narrow-content">
+        <h3><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/New-5-star_430x.png?v=1687371470#" class="star" style="margin-bottom: 10px;" alt=""></h3>
+                <p>Good Natured Selects Ranch Vegetable Crisps</p>
+        <button class="card-btn"><a href="https://shop.herrs.com/collections/good-natured-selectes/products/good-natured-selects-ranch-vegetable-crisps" style="color:white;text-decoration:none !important;">Order Online</a></button>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="card-narrow">
+        <div class="card-narrow-image"><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/GNS_Cheddar_Cheese_Toasted_Thins_430_x_588_430x.png?v=1695928381" alt="books"></div>
+        <div class="card-narrow-div">
+<br>
+<div class="card-narrow-content">
+<h3><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/New-5-star_430x.png?v=1687371470#" class="star" style="margin-bottom: 10px;" alt=""></h3>
+       <p>Good Natured Selects Cheddar Multigrain Crisps</p>
+<button class="card-btn"><a href="https://shop.herrs.com/collections/good-natured-selectes/products/good-natured-selects-cheddar-multigrain-crisps" style="color:white;text-decoration:none !important;">Order Online</a></button>
+   </div>
+</div>
+
+
+</div>
+
+<div class="card-narrow">
+    <div class="card-narrow-image"><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/GNS_Original_Toasted_Thins_430_x_588_430x.png?v=1695928381" alt="books"></div>
+    <div class="card-narrow-div">
+<br>
+<div class="card-narrow-content">
+<h3><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/New-5-star_430x.png?v=1687371470#" class="star" style="margin-bottom: 10px;" alt=""></h3>
+   <p>Good Natured Selects Multigrain Crisps</p>
+<button class="card-btn"><a href="https://shop.herrs.com/collections/good-natured-selectes/products/good-natured-selects-multigrain-crisps" style="color:white;text-decoration:none !important;">Order Online</a></button>
+</div>
+</div>
+
+
+</div>
+     
+        
+       
+<!--         <div class="card-narrow">
+                 <div class="card-narrow-image"><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/v108_75_430x.png?v=1687371472" alt="jersey shore"></div>
+                 <div class="card-narrow-div">
+        <br><br><br><br>
+        <div class="card-narrow-content"> <h3><img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/New-5-star_430x.png?v=1687371470#" alt=""></h3>
+                <p>Good Natured Selects Cheddar Multigrain Crisps</p>
+        <button class="card-btn">Order Online</button>
+            </div>
+        </div>
+    </div> -->
+</div>
+
+
+<div class="row">
+    <div class="responsive-two-column-grid">
+        <div class="image-left" style="margin-top: -15px;">
+            <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/image1_430x.jpg?v=1687361104#" alt="Herr's ecomm"/>
+            </div>
+            <div class="left-textbox">
+                <h2 style="font-weight: 700; font-family: Fredoka;">IT'S TIME TO SNACK BETTER.</h2>
+                <p>Every bag of Good Natured Selects™ is gluten-free and uses wholesome ingredients, for premium snacks that don’t just taste good, but are good. And three of our tasty snacks are NON GMO Project Verified!</p>
+                <p>We didn’t just make snacking more delicious, we made it better!</p>
+                <button class="button-left"><a href="http://shop.herrs.com/" style="color:white;text-decoration:none !important;">Shop All Products</a></button>
+            </div>
+    </div>
+</div>
+
+
+<br>
+
+
+<div class="row">
+    <div class="responsive-two-column-grid">
+       
+            <div class="left-textbox1">
+                <h2 style="font-weight: 700; font-family: Fredoka;">TRY THEM ALL!</h2>
+                <p>Now you can enjoy Veg-ables!® in a 5-count box size!</p>
+                
+                <button class="button-left-new" style="margin-right: 10%;"><a href="https://shop.herrs.com/collections/good-natured-selectes/products/good-natured-selects-variety-pack" style="color:white;text-decoration:none !important;">Order Online</a></button>
+            </div>
+
+            <div class="image-right">
+                <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/box-img_430x.png?v=1695930128" alt="Herr's ecomm"/>
+                </div>
+    </div>
+</div>
+
+<div class="ftr" style="background-color: #C42129; padding: 5px;">
+    <p style="text-align: center; color: #ffffff; margin: 0px !important;">© 2023 Herr Foods Inc. All Rights Reserved.
+    </p>
+</div>
+  
+  </section>
+ 
+</body>
+</html>
+
+    	</div>
+	</div>
+</section>

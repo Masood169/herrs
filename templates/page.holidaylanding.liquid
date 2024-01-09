@@ -1,0 +1,1069 @@
+<section class="section section--page page">
+	<div class="container container--medium">
+
+        <div class="page__content rte">
+      		<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    
+    <style>
+      @font-face {
+                      font-family: "Proxima Nova Rg";
+                      src: url(https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Proxima_Nova_Font.woff2?v=1689399769) format('woff2');
+                    }
+
+                    @font-face {
+                      font-family: 'Calderock Stamp';
+                      src: url(https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Calderock_Stamp.woff2?v=1689402020) format('woff2');
+                    }
+                    @font-face {
+                      font-family: 'Proxima Nova Th';
+                      src: url(https://cdn.shopify.com/s/files/1/0515/2047/1229/files/FontsFree-Net-Proxima-Nova-Xbold.woff2?v=1689415681) format('woff2');
+                    }
+                    @font-face {
+                      font-family: 'Freehouse Wide';
+                      src: url(https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Freehouse-Wide.woff2?v=1689397394) format('woff2');
+                    }
+
+                    @font-face {
+                      font-family: 'Fenway Park JF';
+                      src: url(https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Fenway_Park_JF_Regular.woff2?v=1689398468) format('woff2');
+                    }
+        .l-head{
+            background-color: #333333;
+            color: white;
+            margin-top: -80px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px 10px 0px 10px;
+        }
+        .l-btn{
+            background-color: #cf1f41;
+            color: white;
+            border-radius: 50px;
+            padding: 15px 50px;
+            font-family: Proxima Nova Th;
+            font-size: 16px;
+            font-weight: bold;
+            position:absolute;
+            right: 80px;
+            top: 0px;
+            border: 0;
+        }
+        .l-btn a{
+          color:white;
+          text-decoration:none !important;
+        }
+        .h_img{
+            top: 50px; 
+            position: relative;
+            width: 200px;
+            z-index:1;
+            right: 40%;
+        }
+        .ban_sec {
+            width: 100%;
+            margin-top: 0px;
+        }
+        .ban_img {
+            width: 100%;
+            position: relative;
+        }
+        .ban_img img {
+            width: 100%;
+        }
+    
+        .ban_text {
+            position: absolute;
+            width: 55%;
+            top: 70%;
+            left: 5%;
+            -ms-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            text-align: left;
+        }
+        .ban_text span {
+            
+            color: #faf7e9;
+/*             text-transform: uppercase; */
+            line-height: 20px;
+            font-size: 30px;
+        }
+        .ban_text p {
+            
+            color: #faf7e9;
+            margin: 7px 0 25px;
+        }
+        .ban_text a {
+            display: inline-block;
+            font: 600 20px/24px "Arial", sans-serif;
+            background: #faf7e9;
+            border-radius: 26px;
+            color: #faf7e9;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+        }
+
+        .mobile-view{
+            display: none;
+        }
+      .carousel-indicators{
+        margin-top: 30px !important;
+      }
+
+        .rich-sec{
+            text-align: center;
+            background-color: #faf7e9;
+            color: #D02042;
+/*             height: 60px; */
+            align-items: center;
+            vertical-align: middle;
+        }
+        .rich-text p{
+            margin: 0px;
+            padding: 12px;
+            text-align: center;
+        }
+        .rich-text-2 p{
+            margin-top: 30px;
+            padding: 12px;
+            text-align: center;
+        }
+        .responsive-three-column-grid{
+            display: grid;
+            background-color: #16B9BF;
+        }
+
+        .responsive-three-column-grid > *{
+            padding: 1rem;
+        }
+
+        .three-column-grid-img img{
+            width: 85%;
+            filter: drop-shadow(2px 13px 3px #0D6D70);
+        }
+        .three-column-grid-text{
+            color: #faf7e9;
+            padding-top: 70px;
+             text-align: start;
+        }
+
+        .responsive-two-columns{ 
+            display: flex; 
+            flex-wrap: wrap;
+            background-color: #16B9BF;
+            color: #faf7e9;
+        }
+
+        .responsive-two-columns-b{ 
+            display: flex; 
+            flex-wrap: wrap;
+            background: url("https://cdn.shopify.com/s/files/1/0515/2047/1229/files/red_Speckle.png?v=1700155367") !important;
+            color: #faf7e9;
+        }
+
+        .responsive-two-columns > * { 
+            width:100%;
+            padding: 1rem;
+        }
+
+        .responsive-two-columns-b > * { 
+            width:100%;
+            padding: 1rem;
+        }
+
+        .rich-sec2{
+            text-align: center;
+            background-color: #16B9BF;
+            color: #faf7e9;
+            padding: 20px;
+        }
+
+        .rich-sec2 .rich-text a{
+            display: inline-block;
+/*             font: 500 14px/24px "Arial", sans-serif; */
+            background: #C42129;
+            border-radius: 26px;
+            color: #faf7e9;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+        }
+
+        .rich-sec2 .rich-text h2{
+            margin: 0;
+            padding: 12px;
+          font-size:32px;
+          text-align: center;
+        }
+
+        .sticker-img{
+            background: linear-gradient(
+                to top,
+                #d11e40 0%,
+                #d11e40 50%,
+                #faf7e9 50%,
+                #faf7e9 100%
+            );
+            text-align: center;
+        }
+
+      .rte img{
+        margin: 0px;
+      }
+
+
+        @media (min-width: 768px) {
+            .responsive-three-column-grid{
+                display: grid;
+                grid-auto-rows: 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .responsive-two-columns > * {
+                width: 50%;
+                flex: 1;
+            }
+            .responsive-two-columns-b > * {
+                width: 50%;
+                flex: 1;
+            }
+
+        }
+      @media only screen and (max-width: 1399px) {
+
+        .ban_text{
+          width: 100%;
+        }
+      }
+        @media (min-width: 1200px) and (max-width: 1399px) {
+            .ban_text{
+                position: absolute;
+                top: 85%;
+            }
+            .ban_text p {
+                font-size: 21px;
+            }
+        }
+        @media (min-width: 992px) and (max-width: 1199px) {
+           .h_img {
+                    top: 10px;
+            }  
+          .ban_text{
+                position: absolute;
+                top: 70%;
+            }
+            .ban_text p {
+                font-size: 17px;
+            }
+            .ban_text strong {
+                font-size: 25px;
+                line-height: 35px;
+            }
+            .ban_text strong span {
+                font-size: 37px;
+            }
+            .ban_text a {
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+        @media only screen and (max-width: 991px) {
+            .ban_text{
+                position: absolute;
+                top: 45%;
+            }  
+          
+            .ban_text strong {
+                font-size: 28px;
+                line-height: 40px;
+            }
+            .ban_text strong span {
+                font-size: 28px;
+                line-height: 35px;
+                letter-spacing: 2px;
+            }
+            .ban_text p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .ban_text a {
+                font-size: 13.39px;
+                line-height: 15px;
+                padding: 15px 50px;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            .ban_img img {
+                min-height: 290px;
+                object-fit: cover;
+            }
+            .desktop-view{
+                display: none !important;
+            }
+            .mobile-view{
+                display: block !important;
+            } 
+            .l-btn{  
+                        background-color: #C42129;
+                        color: white;
+                        border-radius: 50px;
+                        padding: 8px;
+                        font-weight: bold;
+                        position: absolute;
+                        right: 25px;
+                        top: 15px;
+                        border: 0;
+                        font-size: 15px;
+                                }
+            .h_img {
+                    top: 10px;
+                    position: relative;
+                    width: 80px;
+                    z-index: 1;
+                    right: 120px;
+            }
+            .l-head{
+                height: 75px;
+            }  
+            .three-column-grid-img img{
+                width: 100%;
+            }
+            .two-column-img img{
+                width: 100%;
+            }
+            .sticker-img img{
+                width: 100%;
+            }
+            .product-carousel .product-carousel-btn a{
+                padding: 10px 15px !important;
+            }
+            .product-carousel-2 .product-carousel-btn-2 a{
+                padding: 10px 15px !important;
+            }
+            .product-carousel-3 .product-carousel-btn-3 a{
+                padding: 10px 15px !important;
+            }
+            .product-carousel{
+                padding: 0px !important;
+            }
+            .product-carousel-2{
+                padding: 0px !important;
+            }
+            .product-carousel-3{
+                padding: 0px !important;
+            }
+            .section .product-carousel-btn a{
+                padding: 10px 15px !important;
+            }
+            .section .product-carousel-btn-2 a{
+                padding: 10px 15px !important;
+            }
+            .section .product-carousel-btn-3 a{
+                padding: 10px 15px !important;
+            }
+            .customer-logos .slide-in-right a img{
+                width: 100%;
+            }
+            .responsive-three-column-grid > *:nth-child(2){
+                order: 3;
+            }
+            .responsive-three-column-grid > *:nth-child(0){
+                order: 3;
+            }
+            .responsive-three-column-grid > *:nth-child(1){
+                order: 2;
+            }
+            .three-column-grid-text{
+                text-align: center;
+            }
+            .two-column-grid-text{
+                padding: 10px !important;
+            }
+            .two-column-grid-text h3,h2,p{
+                text-align: center !important;
+            }
+          .section{
+            padding: 0px !important;
+            
+          }
+          .product-carousel-btn{
+              margin-bottom: 30px;
+          }
+          .product-carousel-btn-2{
+              margin-bottom: 30px;
+          }
+          /* .product-carousel-btn-3{
+              margin-bottom: 30px;
+          } */
+          .rte img{
+            margin: 0px !important;
+          }
+          ul{
+            margin-left: 0px !important;
+          }
+            
+          
+        }
+        @media only screen and (max-width: 575px) {
+            .ban_text strong {
+                padding: 10px;
+                width: 100%;
+                display: block;
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            .ban_text strong span {
+                font-size: 22px;
+                line-height: 31px;
+                letter-spacing: 1px;
+            }
+            .ban_text {
+/*                 top: 30%; */
+                left: 0;
+                text-align: center;
+                padding: 0px 25px;
+            }
+            .rich-text p{
+                padding: 5px;
+            }
+          
+        }
+
+     
+      
+        @media only screen and (max-width: 400px){
+          .section{
+            padding: 0px !important;
+          }
+
+          .l-btn{
+            right: 20px;
+            top: 15px;
+          }
+
+          .h_img{
+            right: 120px;
+          }
+
+         .footer p{
+            padding: 5px !important;
+          }
+        }
+      @media (min-width: 1441px) and (max-width: 1800px){
+        .l-btn{
+          right: 15%;
+        }
+      }
+      @media (min-width: 1801px) and (max-width: 2560px){
+        .l-btn{
+          right: 25%;
+        }
+      }
+        @media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		} 
+        .full-width-image-desktop{
+          display: none !important;
+        }
+        .full-width-image-mobile{
+          display: block !important;
+        }
+	}
+
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+            display: flex;
+        }
+        
+
+        /* medium and up screens */
+        @media (min-width: 768px) {
+
+            .carousel-inner .carousel-item-end.active,
+            .carousel-inner .carousel-item-next {
+                transform: translateX(33.33333%);
+            }
+
+            .carousel-inner .carousel-item-start.active, 
+            .carousel-inner .carousel-item-prev {
+                transform: translateX(-33.33333%);
+            }
+          .two-column-grid-text{
+                padding: 100px;
+            }
+        }
+
+        .carousel-inner .carousel-item-end,
+        .carousel-inner .carousel-item-start { 
+            transform: translateX(0);
+        }
+
+        .product-carousel-2{
+            background-color: #14B7BF;
+        }
+        .product-carousel-3{
+            background-color: #FAF7E9;
+        }
+        
+        .product-carousel{
+            background-image: url("https://cdn.shopify.com/s/files/1/0515/2047/1229/files/White_Speckle_background_overlay.png?v=1700434894");
+            background-color: #d11e40;
+            padding: 75px 0px;
+        }
+
+        .full-width-image{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .full-width-image-mobile{
+          display: none;
+        }
+         .full-width-image-desktop{
+            display: flex;
+             background-color: #FAF7E9;
+        }
+
+
+        .product-carousel .product-carousel-btn a{
+            display: inline-block;
+/*             font: 500 14px/24px "Arial", sans-serif; */
+            font-weight: 700;
+            background: #faf7e9;
+            border-radius: 26px;
+            color: #d11e40;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .product-carousel-2 .product-carousel-btn-2 a{
+            display: inline-block;
+/*             font: 500 14px/24px "Arial", sans-serif; */
+            font-weight: 700;
+            background: #d11e40;
+            border-radius: 26px;
+            color: #faf7e9;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+        }
+        .product-carousel-3 .product-carousel-btn-3 a{
+            display: inline-block;
+/*             font: 500 14px/24px "Arial", sans-serif; */
+            font-weight: 700;
+            background: #d11e40;
+            border-radius: 26px;
+            color: #faf7e9;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+        }
+        .product-img img{
+            width: 80%;
+            padding-top: 4%;
+            padding-bottom: 14%;
+        }
+
+        footer{
+            background-color: #555555;
+            color: #faf7e9;
+            text-align: center;
+        }
+        .footer p{
+            margin: 0;
+            padding: 15px;
+        }
+      
+/* Slick Slider */
+
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 135%;
+            font-size: 1.8rem;
+        }
+
+        .slick-prev {
+            left: 0;
+        }
+
+        .slick-next {
+            right: 0;
+        }
+
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+                touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+
+        .slide {
+            transition: filter .4s;
+            margin: 0px 40px;
+        }
+
+        .fas {
+            color: #8E8E8E;
+        }
+        .slick-prev {
+            left: 0;
+        }
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 35%;
+            font-size: 1.8rem;
+        }
+
+        .section {
+        /* max-width: 1200px; */
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px;
+        }
+        .section1 {
+          /* max-width: 1200px; */
+          margin: 0 auto;
+          background-color: #d11e40;
+          text-align: center;
+          padding: 50px;
+        }
+        .section1 .product-carousel-btn a{
+            display: inline-block;
+/*             font: 500 14px/24px "Arial", sans-serif; */
+            background: #faf7e9;
+            border-radius: 26px;
+            color: #d11e40;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+            margin-top: 15px;
+        }
+      .section1 .product-carousel-btn-2 a{
+            display: inline-block;
+/*             font: 500 14px/24px "Arial", sans-serif; */
+            background: #faf7e9;
+            border-radius: 26px;
+            color: #d11e40;
+            padding: 12px 85px;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration:none;
+            margin-top: 15px;
+        }
+        .customer-logos .slide-in-right a img{
+            width: 100%;
+        }
+
+        /* .three-column-grid-text ul li::marker{
+            display: none;
+        } */
+        .three-column-grid-text ul{
+            list-style-type: none;
+            margin: 0px !important;
+        }
+        .two-column-grid-text ul{
+            list-style-type: none;
+            margin: 0px !important;
+            text-align:start;
+        }
+        .two-column-grid-text{
+                padding: 100px;
+        }
+        section.section.section--footer {
+            padding: 0px;
+        }
+        .two-column-grid-text h3,h2,p{
+                  text-align: start;
+        }
+        .two-column-img img{
+                  height: 100%;
+        }
+  @media(max-width:767px){
+    .carousel-item{transition:transform .1s linear}
+  }
+    </style>
+</head>
+<body>
+    <header class="l-head">
+        <img class="h_img" src="https://cdn.shopify.com/s/files/1/0775/9521/4142/files/v1_124.png?v=1686915043" alt="">
+        <button class="l-btn"><a href="https://shop.herrs.com/collections/42ct-84ct-choose-your-own-variety-packs">Choose Your Own Variety</a></button>
+    </header>
+    <section class="ban_sec">
+			<div class="ban_img">
+	            <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/herrs-holiday-shop-2023.png?v=1700599483" alt="banner" class="desktop-view" >
+                <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_LP_Mobile_Background_1.jpg?v=1700435742" alt="" class="mobile-view">
+				<div class="ban_text">
+					<span style="font-family: Calderock Stamp;">
+						<span style="font-family: Fenway park JF;font-size: 48px !important;color: #faf7e9;">'Tis the snacking season.</span>
+					</span>
+					<p style="font-family: Proxima Nova Rg; font-size:16px;color: #faf7e9;">Give the most tasteful gift to friends and family this holiday season.<br>
+Pick from countless Herr’s classics to limited-time holiday treats<br>
+and have it all shipped to any door (or chimney). </p>
+					<a href="https://shop.herrs.com/collections/pre-assorted-varieties/products/herrs-holiday-snack-truck" style="color: #d11e40; font-family: Proxima Nova Th; font-size:20px;text-decoration:none !important;margin-bottom: 100px;">Order Now</a>
+				</div>
+			</div>
+	</section>
+    <section class="rich-sec">
+        <div class="container">
+            <div class="rich-text">
+                <p style="font-family: Proxima Nova Rg; font-size:16px;"><strong>Order by December 15th to guarantee delivery before Christmas.<br>
+</strong>
+            </div>
+        </div>
+    </section>
+   <section class="product-carousel-2" id="first-carousel">
+        <div class="container text-center">
+            <div class="row mx-auto my-auto justify-content-center">
+                 <div class="rich-text-2">
+            <h3 style="font-family: Calderock Stamp; font-size:40px; margin-bottom: 0px !important; margin-top: 40px !important; color: #FAF7E9;"><span style="font-family: Freehouse Wide;margin-top: 40px !important;font-size: 30px;">LIKE THE HOLIDAYS,</span><br> THESE ARE HERE FOR JUST A LIMITED TIME.</h3>
+        </div>
+                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="3"></button>
+                    </div>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="product-img"><a href="https://shop.herrs.com/products/milk-chocolate-pretzel-tubs?_pos=3&_sid=de1c42b7c&_ss=r">
+                                    <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_Chocolate_Pretzels_2023_-_Herrs.png?v=1700438340" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                    <div class="product-img"><a href="https://shop.herrs.com/products/peanut-butter-filled-pretzel-nuggets?_pos=1&_sid=a571db27d&_ss=r">
+                                        <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_PB_Pretzels_2023_-_Herrs.png?v=1700438340" class="img-fluid"></a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                    <div class="product-img"><a href="https://shop.herrs.com/products/herrs-holiday-snack-truck?_pos=1&_sid=de1c42b7c&_ss=r">
+                                        <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_Truck_Box_2023_-_Herrs.png?v=1700438340" class="img-fluid"></a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                    <div class="product-img"><a href="https://shop.herrs.com/products/recyclable-tote-filled?_pos=9&_sid=de1c42b7c&_ss=r">
+                                        <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_Green_Tote_2023_-_Herrs.png?v=1700438340" class="img-fluid"></a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="product-carousel-btn-2">
+                    <a href="https://shop.herrs.com/collections/pre-assorted-varieties" style="font-family: Proxima Nova Th; font-size:16px; margin-bottom: 50px;" >Buy Now</a>
+                </div>
+            </div>		
+        </div>
+    </section>
+  <section class="product-carousel" id="second-carousel">
+        <div class="container text-center">
+            <div class="row mx-auto my-auto justify-content-center">
+                 <div class="rich-text-2">
+            <h3 style="font-family: Calderock Stamp; font-size:40px; margin-bottom: 0px !important; margin-top: 40px !important; color: #faf7e9;"><span style="font-family: Freehouse Wide;margin-top: 40px !important;font-size: 30px;">THESE PRESENTS<br>ARE ALREADY PACKED.</span></h3>
+            <p style="color: #faf7e9;font-size:21px;padding-bottom:0px;">Sending season’s cravings has never been easier with our ready-to-ship, <br>pre-assorted variety packs of single-serve bags. </p>
+            <p style="color: #faf7e9;font-size:12px;padding-top:0px;">Items may vary due to inventory.</p>  
+           <div class="product-carousel-btn">
+                    <a href="https://shop.herrs.com/collections/all-products" style="font-family: Proxima Nova Th; font-size:16px; margin-bottom: 50px;" >Shop All Products</a>
+            </div>
+        </div>
+                <div id="recipeCarousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#recipeCarousel2" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#recipeCarousel2" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#recipeCarousel2" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#recipeCarousel2" data-bs-slide-to="3"></button>
+                    </div>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="product-img"><a href="https://shop.herrs.com/products/retro-tin?_pos=4&_sid=de1c42b7c&_ss=r">
+                                    <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Herr_s_Tin_Quanity_tag_8775dadd-206c-4ee6-a1dd-52d3852a79f4.png?v=1700491094" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                    <div class="product-img"><a href="https://shop.herrs.com/products/herrs-holiday-snack-truck?_pos=1&_sid=de1c42b7c&_ss=r">
+                                        <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_SnackBox_Quantity_Tag_197a7521-907a-4596-82e6-48e2dd5f1387.png?v=1700491094" class="img-fluid"></a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                    <div class="product-img"><a href="https://shop.herrs.com/products/decorative-box?_pos=6&_sid=de1c42b7c&_ss=r&variant=40980390150333">
+                                        <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_gift_box_Quanity_tag_f3fa30ad-a8b6-4a26-b7fb-c5ec46140190.png?v=1700491094" class="img-fluid"></a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                    <div class="product-img"><a href="https://shop.herrs.com/products/recyclable-tote-filled?_pos=9&_sid=de1c42b7c&_ss=r">
+                                        <img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/Holiday_Green_Tote_2023_Quanity_tag_dff9c89d-d453-42e8-9c30-b01fa7e6982a.png?v=1700491094" class="img-fluid"></a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel2" data-bs-target="#recipeCarousel2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel2" data-bs-target="#recipeCarousel2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>		
+        </div>
+    </section>
+    <section class="full-width-image-desktop">
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Variety_Instructions_Module_1.png?v=1700448994" style="width: 100%;padding: 0px;margin: 0px;" alt="Instructions for building a custom gift box from Herrs.">
+      </div>
+    </section>
+    <section class="full-width-image-mobile">
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Choose_your_variaty_module_MOBILE_1.png?v=1700492101" style="width: 100%;padding: 0px;margin: 0px;" alt="Instructions for building a custom gift box from Herrs.">
+      </div>
+    </section>
+  <section class="product-carousel-3">
+                <div class="product-carousel-btn-3">
+                    <a href="https://shop.herrs.com/collections/42ct-84ct-choose-your-own-variety-packs" style="font-family: Proxima Nova Th; font-size:16px; margin-bottom: 50px;" >Get Started</a>
+                </div>
+    </section>
+    <section class="sticker-img">
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0515/2047/1229/files/Rooted_in_Flavor_Sticker_1_430x.png?v=1687239860#" alt="">
+        </div>
+    </section>
+    <section class="product-carousel">
+        <div class="container">
+            <div class="customer-logos slider">
+                <div class="slide-in-right slide"><a href="https://shop.herrs.com/collections/potato-chips/products/crisp-n-tasty"><img src="//cdn.shopify.com/s/files/1/0515/2047/1229/products/0011_CrispNTasty_400x.png?v=1614297853" alt="Kinderhotel Aschauerhof"></a></div>
+                <div class="slide-in-right slide"><a href="https://shop.herrs.com/collections/cheese-snacks/products/cheese-curls"><img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/v1_103_400x.png?v=1686991421" alt="Kinderhotel Aschauerhof"></a></div>
+                <div class="slide-in-right slide"><a href="https://shop.herrs.com/collections/pretzels/products/pub-style-sourdough-pretzels"><img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/new2_430x.png?v=1688366376" alt="Kinderhotel Aschauerhof"></a></div>
+                <div class="slide-in-right slide"><a href="https://shop.herrs.com/collections/tortillas/products/white-corn-tortilla"><img src="//cdn.shopify.com/s/files/1/0515/2047/1229/files/new3_430x.png?v=1688366609" alt="Kinderhotel Aschauerhof"></a></div>
+                <div class="slide-in-right slide"><a href="https://shop.herrs.com/collections/popcorn/products/original-popcorn"><img src="//cdn.shopify.com/s/files/1/0515/2047/1229/products/0002_Orginalpopcorn_400x.png?v=1614372100" alt="Kinderhotel Aschauerhof"></a></div>
+                <div class="slide-in-right slide"><a href="https://shop.herrs.com/products/sour-cream-onion?pr_prod_strat=copurchase&pr_rec_id=0bf1b4233&pr_rec_pid=6153959669949&pr_ref_pid=6153866739901&pr_seq=uniform"><img src="//cdn.shopify.com/s/files/1/0515/2047/1229/products/0008_SourCream_Onion_400x.png?v=1618495380" alt="Kinderhotel Aschauerhof"></a></div>
+                
+            </div>
+            <div class="product-carousel-btn">
+                <a href="https://shop.herrs.com/" style="font-family: Proxima Nova Th; font-size:16px;">Shop All Products</a>
+            </div>
+        </div>
+      </section>
+    <footer>
+        <p style="font-family: Proxima Nova Rg; font-size:16px; text-align:center;">© 2023 Herr Foods Inc. All Rights Reserved.</p>
+    </footer>
+    <script>
+        let items = document.querySelectorAll('.product-carousel .carousel .carousel-item')
+        items.forEach((el) => {
+            const minPerSlide = 3
+            let next = el.nextElementSibling
+            for (var i=1; i<minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        });
+
+        let items2 = document.querySelectorAll('.product-carousel-2 .carousel .carousel-item')
+        items2.forEach((el) => {
+            const minPerSlide = 3
+            let next = el.nextElementSibling
+            for (var i=1; i<minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items2[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        });
+    </script>
+    <script>
+         $(document).ready(function(){
+            $('.customer-logos').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: true,
+            dots: false,
+            pauseOnHover: false,
+            prevArrow: '<i class="slick-prev fas fa-angle-left"></i>',
+            nextArrow: '<i class="slick-next fas fa-angle-right"></i>',
+            responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3
+            }
+            }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 1
+            }
+            }]
+            });
+        });
+    </script>
+    
+</body>
+</html>
+    	</div>
+	</div>
+</section>
