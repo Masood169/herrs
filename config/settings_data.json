@@ -28,7 +28,7 @@
     "type_button_capitalize": true,
     "product_grid_vendor": false,
     "product_grid_second_hover": true,
-    "product_grid_quick_buy": "always",
+    "product_grid_quick_buy": "hover",
     "product_grid_align": "center",
     "product_grid_image_size": "natural",
     "product_grid_masonry": false,
