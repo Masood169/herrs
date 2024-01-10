@@ -84,7 +84,9 @@
                                                 <div class="cart-item__price cart-item__price--sale"><span class="money">{{ bb_final_price | money }}</span></div>
                                             {% else %}
                                                 <div class="cart-item__price">
-                                                    <span class="money">{{ bb_final_price | money }}</span>
+                                                    <span class="money">
+                                                        <span class="icon-fallback__text">Total Price</span>
+                                                        {{ bb_final_price | money }}</span>
                                                     {%- if item.unit_price_measurement -%}
                                                         <span class="cart-item__unit-price">
                                                             <span class="u-hidden-visually">{{ 'products.general.unit_price_label' | t }}</span>
@@ -124,7 +126,7 @@
                                             {% else %}
                                                 <div class="cart-item__price">
                                                     <span class="money">
-                                                        <span class="icon-fallback__text">regular Price</span>
+                                                        <span class="icon-fallback__text">Total Price</span>
                                                         {{ bb_original_line_price | money }}</span>
                                             </div>
                                             {% endif %}
