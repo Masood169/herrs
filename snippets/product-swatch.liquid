@@ -70,7 +70,7 @@
         {% if color_swatch_options contains option_name and style == 'swatches' %}
   			
               <div class="product-single__swatch__item product-single__swatch__item--color js-swatch-color-item">
-                  <input type="radio" class="product-single__swatch__input u-hidden-visually" id="{{ id }}" name="{{ option_name }}-c" value="{{ value | escape }}" data-position="{{ option.position }}" {{ checked }}/>
+                  <input type="radio"  class="product-single__swatch__input u-hidden-visually" id="{{ id }}" name="{{ option_name }}-c" value="{{ value | escape }}" data-position="{{ option.position }}" {{ checked }}/>
                   <label for="{{ id }}" class="product-single__swatch__label">
                       <span class="product-single__swatch__label__graphic{% if color_name == 'white' %} product-single__swatch__label__graphic--white{% endif %}" style="background-color: {{ swatch_css_color }};{% if section.settings.use_swatch_images %}background-image: url({{ image_url }}){% endif %}"></span>
                       <span class="u-hidden-visually">{{ value }}</span>
