@@ -122,7 +122,11 @@
                                                 {% endif %}
                                                 <div class="cart-item__price cart-item__price--sale"><span class="money">{{ bb_final_line_price | money }}</span></div>
                                             {% else %}
-                                                <div class="cart-item__price"><span class="money">{{ bb_original_line_price | money }}</span></div>
+                                                <div class="cart-item__price">
+                                                    <span class="money">
+                                                        <span class="icon-fallback__text">regular Price</span>
+                                                        {{ bb_original_line_price | money }}</span>
+                                            </div>
                                             {% endif %}
                                         </div>
 
@@ -130,7 +134,7 @@
 
                                     <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="cart-item__remove icon-fallback">
                                         <i class="icon icon--close" aria-hidden="true"></i>
-                                        <span class="icon-fallback__text">{{ 'cart.general.remove' | t }}</span>
+                                        <span class="icon-fallback__text">{{ 'cart.general.remove' | t }} item from cart</span>
                                     </a>
                                 </div>
                             </div>
