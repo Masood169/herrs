@@ -3,8 +3,18 @@
 /-----------------------------------------------------------------------------*/
 
 // Insert any custom theme js here...
-$('ul.slick-dots li').removeAttr('role', 'presentation');
-$('ul.slick-dots li').removeAttr('aria-controls');
+
+$(document).ready(function() {
+    // Check if .slick-dots class is present on the page
+    if ($('.slick-dots').length > 0) {
+        setTimeout(function() {
+            $('#slick-slide00, #slick-slide01').removeAttr('role', 'presentation');
+            $('#slick-slide00, #slick-slide01').removeAttr('aria-controls');
+                        // Add your other code here if needed
+        }, 1000);
+    }
+});
+
 $('#slick-slide00, #slick-slide01').click(function() {
 
     // Set a timeout to run the effect after 3 seconds
