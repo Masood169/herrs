@@ -86,7 +86,7 @@
                             <div class="o-layout__item {{ grid_item_width }}">
                                 <div class="footer-nav">
                                     {% unless block.settings.title == blank %}
-                                        <h4 class="footer-nav__title h5 umrs1">{{ block.settings.title }}</h4>
+                                        <h3 class="footer-nav__title h5">{{ block.settings.title }}</h3>
                                     {% endunless %}
                                     <ul class="footer-nav__items o-list-bare">
                                         {% for link in linklists[block.settings.linklist].links %}
@@ -101,7 +101,7 @@
                         <div class="o-layout__item {{ grid_item_width }}">
                             <div class="footer-nav">
                                 {% unless block.settings.title == blank %}
-                                    <h4 class="footer-nav__title h5 umrs4">{{ block.settings.title }}</h4>
+                                    <h3 class="footer-nav__title h5">{{ block.settings.title }}</h3>
                                 {% endunless %}
                                 {% if block.settings.show_email %}
                                     <p class="footer-nav__text"><a href="mailto:{{ shop.email }}" class="footer-nav__text-link">{{ shop.email }}</a></p>
@@ -218,7 +218,7 @@
                         <div class="o-layout__item {{ grid_item_width }}">
                             <div class="footer-nav">
                                 {% unless block.settings.title == blank %}
-                                    <h4 class="footer-nav__title h5 umrs2">{{ block.settings.title | escape }}</h4>
+                                    <h4 class="footer-nav__title h5">{{ block.settings.title | escape }}</h4>
                                 {% endunless %}
                                 {% unless block.settings.text == blank %}
                                     <div class="footer-nav__text rte">
@@ -233,7 +233,7 @@
                             <div class="footer-nav footer-nav--tweet js-footer-tweet" data-footer-tweet-enable="{% if block.settings.username == blank %}false{% else %}true{% endif %}" data-footer-tweet-user="{{ block.settings.username }}">
                                 <div id="footer-tweet" style="display: none"></div>
                                 {% unless block.settings.title == blank %}
-                                    <h4 class="footer-nav__title h5 umrs5">{{ block.settings.title | escape }}</h4>
+                                    <h4 class="footer-nav__title h5">{{ block.settings.title | escape }}</h4>
                                 {% endunless %}
                                 {% unless block.settings.username == blank %}
                                     <div class="footer-nav__text rte footer-tweet__text js-footer-tweet-text"></div>
@@ -276,7 +276,7 @@
                         <div class="o-layout__item {{ grid_item_width }}">
                             <div class="footer-nav footer-nav--social">
                                 {% unless block.settings.title == blank %}
-                                    <h4 class="footer-nav__title h5 umrs3">{{ block.settings.title | escape }}</h4>
+                                    <h4 class="footer-nav__title h5">{{ block.settings.title | escape }}</h4>
                                 {% endunless %}
                                 <ul class="footer-nav__social-items o-list-bare">
                                     {% unless settings.social_facebook_link == blank %}
