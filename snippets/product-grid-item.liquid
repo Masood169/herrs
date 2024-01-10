@@ -136,7 +136,7 @@
 
     <a href="{{ product.url | within: collection }}" class="product-link js-product-link{% if page == 'home' %} home-products__link{% endif %}" title="{{ product.title }}">
         <div class="product__details">
-            <h3 class="product__title h4">{{ product.title }}</h3>
+            <h2 class="product__title h4">{{ product.title }}</h2>
           <div data-bv-show="inline_rating" data-bv-product-id="{{product.id}}" data-bv-redirect-url="{{ product.url }}" data-bv-seo="false"></div>
 
             {% if settings.product_grid_vendor %}
