@@ -655,7 +655,7 @@
           "4a224230-fc75-4d99-8355-4b18e926a4ca"
         ],
         "settings": {
-          "autoplay": false,
+          "autoplay": true,
           "autoplay_speed": 6,
           "slideshow_width": "full"
         }
