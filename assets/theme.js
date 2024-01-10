@@ -963,7 +963,7 @@ theme.productSelect = function(sectionId, cssClass, historyState) {
 				// Compare at price
 				if (variant.compare_at_price > variant.price) {
 					$(".js-product-" + productId + " .js-product-price-number").html(
-					'<span class="product-' +
+					'<span class="tt2 product-' +
 						sectionClass +
 						"__price-number product-" +
 						sectionClass +
@@ -983,7 +983,7 @@ theme.productSelect = function(sectionId, cssClass, historyState) {
 					);
 				} else {
 					$(".js-product-" + productId + " .js-product-price-number").html(
-					'<span class="product-' +
+					'<span class="tt5 product-' +
 						sectionClass +
 						'__price-number"><span class="money">' +
 						Shopify.formatMoney(variant.price, theme.money_format) +
@@ -1010,7 +1010,7 @@ theme.productSelect = function(sectionId, cssClass, historyState) {
 				// Compare at price
 				if (variant.compare_at_price > variant.price) {
 					$(".js-product-" + productId + " .js-product-price-number").html(
-					'<span class="product-' +
+					'<span class="tt7 product-' +
 						sectionClass +
 						"__price-number product-" +
 						sectionClass +
@@ -1030,7 +1030,7 @@ theme.productSelect = function(sectionId, cssClass, historyState) {
 					);
 				} else {
 					$(".js-product-" + productId + " .js-product-price-number").html(
-					'<span class="product-' +
+					'<span class="tt99 product-' +
 						sectionClass +
 						'__price-number"><span class="money">' +
 						Shopify.formatMoney(variant.price, theme.money_format) +
