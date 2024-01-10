@@ -10,5 +10,5 @@ $('div#WebPixelsManagerSandboxContainer + script + iframe').on('load', function(
     setTimeout(function() {
         $('div#WebPixelsManagerSandboxContainer + script + iframe').attr('title', 'test');
         // Add your other code here if needed
-    }, 2000);
+    }, 1000);
 });
