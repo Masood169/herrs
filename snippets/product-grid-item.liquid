@@ -107,7 +107,7 @@
                             sizes="{{ image_sizes }}"
                             width="300"
                             height="{{ 300 | divided_by: product.featured_media.preview_image.aspect_ratio | round }}"
-                            alt="{{ product.featured_media.preview_image.alt | escape }}"
+                            alt="{{ product.title }}"
                             loading="lazy"
                         />
                     </div>
