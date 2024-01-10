@@ -375,7 +375,7 @@
                                     <div class="product-single__box js-product-single-actions{% unless section.settings.layout == 'minimal' %} js-product-single-box{% endunless %}">
 <div data-bv-show="rating_summary" data-bv-product-id="{{product.id}}"></div>
                                         <div class="product-single__price js-product-price">
-                                            <h3 class="product-single__price-text js-product-price-text">
+                                            <h2 class="product-single__price-text js-product-price-text">
                                                 <span class="u-hidden-visually">{{ 'products.general.regular_price' | t }}</span>
                                                 <span class="js-product-price-number t1">
                                                     <span class="product-single__price-number{% if product.compare_at_price_max > product.price %} product-single__price-number--sale{% endif %}"><span class="money">
@@ -391,7 +391,7 @@
                                                     </span>
                                               
                                                 {% endif %}
-                                            </h3>
+                                            </h2>
 
                                             <div class="product-single__price__notes">
                                                 <p class="product-single__price__note product-single__price__note--unit js-price-unit-note">
@@ -494,7 +494,7 @@
                                                     <li class="product-single__share-item">
                                                         <a href="//www.facebook.com/sharer.php?u={{ share_link }}" class="product-single__share-link icon-fallback" target="_blank">
                                                             <i class="icon icon--facebook" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Facebook</span>
+                                                            <span class="icon-fallback__text">Share on Facebook, This link opens in new window</span>
                                                         </a>
                                                     </li>
                                                     {% endif %}
@@ -502,7 +502,7 @@
                                                     <li class="product-single__share-item">
                                                         <a href="//twitter.com/share?text={{ share_title }}&amp;url={{ share_link }}" class="product-single__share-link icon-fallback" target="_blank">
                                                             <i class="icon icon--twitter" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Twitter</span>
+                                                            <span class="icon-fallback__text">share on Twitter, This link opens in new window</span>
                                                         </a>
                                                     </li>
                                                     {% endif %}
@@ -526,7 +526,7 @@
                                                     <li class="product-single__share-item">
                                                         <a href="mailto:?body={{ share_title }} - {{ share_link }}" class="product-single__share-link icon-fallback">
                                                             <i class="icon icon--mail" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Email</span>
+                                                            <span class="icon-fallback__text">Share link with Email, This link opens in new Emailer</span>
                                                         </a>
                                                     </li>
                                                     {% endif %}
