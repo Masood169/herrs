@@ -6,7 +6,7 @@
 
 $(document).ready(function() {
     // Check if .slick-dots class is present on the page
-    if ($('.slick-dots').length > 0) {
+    if ($('#slick-slide00, #slick-slide01').length > 0) {
         setTimeout(function() {
             $('#slick-slide00, #slick-slide01').removeAttr('role', 'presentation');
             $('#slick-slide00, #slick-slide01').removeAttr('aria-controls');
