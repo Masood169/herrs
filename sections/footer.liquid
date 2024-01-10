@@ -41,7 +41,7 @@
                                     <div class="o-layout o-layout--flush">
                                         <div class="o-layout__item u-1/1 u-2/3@tab">
                                             <input type="hidden" name="contact[tags]" value="newsletter">
-                                            <label for="Email" class="u-hidden-visually">Email</label>
+                                            <label for="Email" class="u-hidden-visually">Enter your Email Here</label>
                                             <input type="email"
                                                     name="contact[email]"
                                                     id="Email"
@@ -104,17 +104,21 @@
                                     <h3 class="footer-nav__title h5">{{ block.settings.title }}</h3>
                                 {% endunless %}
                                 {% if block.settings.show_email %}
-                                    <p class="footer-nav__text"><a href="mailto:{{ shop.email }}" class="footer-nav__text-link">{{ shop.email }}</a></p>
+                                    <p class="footer-nav__text"><a href="mailto:{{ shop.email }}" class="footer-nav__text-link"><span class="u-hidden-visually">Email Address</span>{{ shop.email }}</a></p>
                                 {% endif %}
                                 {% if block.settings.show_number %}
-                                    <p class="footer-nav__text"><a href="tel:{{ shop.address.phone }}" class="footer-nav__text-link">{{ shop.address.phone }}</a></p>
+                                    <p class="footer-nav__text"><a href="tel:{{ shop.address.phone }}" class="footer-nav__text-link"><span class="u-hidden-visually">Phone number</span>{{ shop.address.phone }}</a></p>
                                 {% endif %}
                                 {% if block.settings.show_address %}
                                     <p class="footer-nav__text footer-nav__text--address">
-                                        {{ shop.address.street }}<br/>
-                                        {{ shop.address.city }} {{ shop.address.province }}<br/>
+                                        <span class="u-hidden-visually">physical address</span>
+                                        {{ shop.address.street }}</p>
+                                        <p class="footer-nav__text footer-nav__text--address">
+                                        {{ shop.address.city }} {{ shop.address.province }}</p>
+                                        <p class="footer-nav__text footer-nav__text--address">
                                         {{ shop.address.zip }} {{ shop.address.country }}
-                                    </p>
+                                        </p>
+                                    
                                 {% endif %}
                                 {% if block.settings.show_social %}
                                     <div class="footer-nav__social-wrapper">
