@@ -6547,3 +6547,8 @@ body[data-anim-load="false"][data-anim-zoom="true"] .password-content__bg {
   display: block !important;
   clear: both !important; }
 
+.product-btn.product-btn--hover{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
