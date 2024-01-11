@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 
     $('li.secondary-nav__item.primary-nav__item--sub').click(function() {
-      $('#sub-1').addClass('active-menu');
+      $('#sub-1').toggleClass('active-menu');
     });
   
   });
