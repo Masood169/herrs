@@ -24,4 +24,11 @@ $(document).ready(function() {
       // Set aria-select="true" for the clicked input
       $(this).attr('aria-select', 'true');
     });
+
+    $('li.secondary-nav__item.primary-nav__item--sub').click(function() {
+      $('#sub-1').addClass('active-menu');
+    });
+  
   });
+
+
