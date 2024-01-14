@@ -6552,3 +6552,7 @@ body[data-anim-load="false"][data-anim-zoom="true"] .password-content__bg {
   visibility: visible;
   transform: translateY(0);
 }
+a.mail-style, a.phn-style {
+    text-decoration-color: transparent !important;
+    font-weight: 400 !important;
+}
