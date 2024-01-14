@@ -140,7 +140,7 @@
 
     <div class="header-navs u-clearfix u-hidden@tab-down" style="background-color:#fff; display: flex;">
 
-        <nav class="primary-nav header-navs__items" role="navigation">
+        <div class="primary-nav header-navs__items">
           <h1 class="header__logo-wrapper" itemscope itemtype="http://schema.org/Organization">
                           {% if section.settings.logo %}
                 			<a href="{{ routes.root_url }}" itemprop="url" class="header__logo-link animsition-link">
@@ -253,9 +253,9 @@
                 {% endfor %}
             </ul>
           	{% endcomment %}
-        </nav>
+        </div>
 
-        <nav class="secondary-nav header-navs__items" style="margin-top:-0.5em;margin-left:auto;flex: 0 0 auto;text-align:center;width:calc(100vw - 200px - 2em);">
+        <nav role="main menu" class="secondary-nav header-navs__items" style="margin-top:-0.5em;margin-left:auto;flex: 0 0 auto;text-align:center;width:calc(100vw - 200px - 2em);">
           	<ul class="secondary-nav__items">
               	<li class="secondary-nav__item primary-nav__item--sub">
 					<a href="#" class="secondary-nav__link nav__link--sub" aria-expanded="false" aria-controls="sub-1">Our Products</a>
