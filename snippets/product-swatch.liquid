@@ -35,12 +35,12 @@
 
 <div class="product-single__swatch js-product-single-swatch" data-option-index="{{ option.position }}">
 
-    <h3 class="product-single__swatch__title h6">
+    <h2 class="product-single__swatch__title h6">
         {{ option.name }}
         {% if color_swatch_options contains option_name and style == 'swatches' %}
             <span class="product-single__swatch__sub-title js-swatch-variant-title"></span>
         {% endif %}
-    </h3>
+    </h2>
 
     {% for value in option.values %}
 
