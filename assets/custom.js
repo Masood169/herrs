@@ -15,6 +15,24 @@ $('div#WebPixelsManagerSandboxContainer + script + iframe').on('load', function(
 });
 }, 1000);
 
+setTimeout(function() {
+$(document).ready(function() {
+    $('.slick-dots li button').each(function(index) {
+        // Fetching alt text from corresponding image
+        var altText = $('img.home-carousel--image_img').eq(index).attr('alt');
+        
+        // Prepending "Slider Button for" to the alt text
+        var ariaLabelText = 'Slider Button for ' + altText;
+        
+        // Setting aria-label for the button
+        $(this).attr('aria-label', ariaLabelText);
+    });
+});
+}, 2000);
+
+
+
+
 $(".product-single__swatch__item input:eq(0)").attr("aria-selected", "true");
 $(document).ready(function() {
     $('.product-single__swatch input[type="radio"]').click(function() {
