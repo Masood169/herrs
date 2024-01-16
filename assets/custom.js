@@ -28,7 +28,7 @@ $(document).ready(function() {
     $('li.secondary-nav__item.primary-nav__item--sub').click(function() {
       $('#sub-1').toggleClass('active-menu');
       
-  $(this).attr('aria-expanded', function (i, attr) {
+  $('li.secondary-nav__item.primary-nav__item--sub a.secondary-nav__link.nav__link--sub').attr('aria-expanded', function (i, attr) {
     return attr == 'true' ? 'false' : 'true'
 });
     });
