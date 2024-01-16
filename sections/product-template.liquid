@@ -354,6 +354,62 @@
             <div class="container container--{{ section.settings.container }}">
                 <div class="product-single__bottom">
                     <div class="o-layout o-layout--reverse u-flex{% if section.settings.container == 'medium' %} o-layout--large{% endif %}">
+                        <div class="o-layout__item u-1/1 u-3/5@desk">
+
+                            {% if section.settings.layout == 'classic' or section.settings.layout == 'minimal' %}
+                                <div class="u-hidden@desk-down" data-set="cart-photo-replace"></div>
+                                <div class="u-hidden@desk-up" data-set="cart-replace"></div>
+                            {% endif %}
+                        
+                            <div class="product-single__content">
+
+                                {% unless section.settings.layout == 'minimal' %}
+                                    <div class="product-single__content-text rte">
+                                        {{ product.description }}
+                                    </div>
+                              
+                                {% endunless %}
+
+                                <div class="product-single__accordion js-accordion">
+
+                                    {% for block in section.blocks %}
+                                        {%- assign tab = pages[block.settings.tab_content] -%}
+                                        {% unless tab.title == blank %}
+                                            <a href="#acc-{{ forloop.index }}" class="product-single__accordion__title js-accordion-trigger">
+                                                <h4 class="product-single__accordion__title-text">{{ tab.title }}</h4>
+                                                <span class="product-single__accordion__title-icon icon-fallback">
+                                                    <i class="icon icon--plus" aria-hidden="true"></i>
+                                                    <span class="icon-fallback__text">{{ 'products.layout.tab_label' | t }}</span>
+                                                </span>
+                                            </a>
+                                            <div id="acc-{{ forloop.index }}" class="product-single__accordion__item js-accordion-info">
+                                                <div class="product-single__accordion__item-wrap rte">
+                                                    {{ tab.content }}
+                                                </div>
+                                            </div>
+                                        {% endunless %}
+                                    {% endfor %}
+
+                                    {% if settings.product_reviews %}
+                                        <a href="#acc-reviews" class="product-single__accordion__title js-accordion-trigger js-review-accordion">
+                                            <h4 class="product-single__accordion__title-text">{{ 'products.layout.reviews' | t }}</h4>
+                                            <span class="product-single__accordion__title-icon icon-fallback">
+                                                <i class="icon icon--plus" aria-hidden="true"></i>
+                                                <span class="icon-fallback__text">{{ 'products.layout.tab_label' | t }}</span>
+                                            </span>
+                                        </a>
+                                        <div id="acc-reviews" class="product-single__accordion__item js-accordion-info">
+                                            <div class="product-single__accordion__item-wrap rte">
+                                          
+                                            </div>
+                                        </div>
+                                    {% endif %}
+
+                                </div>
+
+                            </div>
+
+                        </div>
                         <div class="o-layout__item u-1/1 u-2/5@desk">
 
                             {% if section.settings.layout == 'classic' or section.settings.layout == 'minimal' %}
@@ -568,7 +624,7 @@
                             {% endif %}
 
                         </div>
-                        <div class="o-layout__item u-1/1 u-3/5@desk">
+                        {% comment %} <div class="o-layout__item u-1/1 u-3/5@desk">
 
                             {% if section.settings.layout == 'classic' or section.settings.layout == 'minimal' %}
                                 <div class="u-hidden@desk-down" data-set="cart-photo-replace"></div>
@@ -623,7 +679,7 @@
 
                             </div>
 
-                        </div>
+                        </div> {% endcomment %}
                     </div>
                 </div>
           </div>          
