@@ -6556,3 +6556,6 @@ a.mail-style, a.phn-style {
     text-decoration-color: transparent !important;
     font-weight: 400 !important;
 }
+.o-layout.o-layout--reverse.u-flex.o-layout--large{
+flex-direction: row-reverse;
+}
