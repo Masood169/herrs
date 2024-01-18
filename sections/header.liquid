@@ -96,7 +96,7 @@
         </a>
   	</div>
   
-    {% if settings.search_enable %}
+    {% comment %} {% if settings.search_enable %}
         <div class="header-trigger header-trigger--right search-draw-trigger-icon u-flex u-flex--middle  secondary-nav__item secondary-nav__item--search" style="display: none">
             <a href="{{ routes.search_url }}" class="secondary-nav__link secondary-nav__link--search icon-fallback">
                             <i class="icon icon--search" aria-hidden="true"></i>
@@ -104,7 +104,7 @@
                         </a>
         </div>
 
-    {% endif %}
+    {% endif %} {% endcomment %}
   {% comment %}
     <div class="header-trigger header-trigger--far-right cart-draw-trigger-icon u-flex u-flex--middle js-cart-draw-icon" style="display: none">
         <a href="{{ routes.cart_url }}" class="header-trigger__link header-trigger__link--cart icon-fallback{% if cart.item_count > 0 %} js-cart-full{% endif %}{% if settings.cart_type == 'modal' %} js-cart-trigger js-no-transition{% endif %}">
@@ -118,19 +118,19 @@
     	<nav class="secondary-nav header-navs__items" aria-label="top menu">
             <ul class="secondary-nav__items">
               	<li class="secondary-nav__item">
-					<a href="https://www.herrs.com/about-us/" class="secondary-nav__link">About Us</a>
+					<a href="https://www.herrs.com/about-us/" class="secondary-nav__link" target="_blank" aria-label="About Us , This link opens in new window">About Us</a>
 				</li>
 				<li class="secondary-nav__item">
-					<a href="https://www.herrs.com/contact-us/" class="secondary-nav__link">Contact Us</a>
+					<a href="https://www.herrs.com/contact-us/" class="secondary-nav__link" target="_blank" aria-label="Contact Us , This link opens in new window">Contact Us</a>
 				</li>
               	<li class="secondary-nav__item">
-					<a href="https://herrs.pinpointhq.com/" class="secondary-nav__link" target="_blank">Careers</a>
+					<a href="https://herrs.pinpointhq.com/" class="secondary-nav__link" target="_blank" aria-label="Careers , This link opens in new window">Careers</a>
 				</li>
               {% if settings.search_enable %}
                     <li class="secondary-nav__item secondary-nav__item--search">
-                        <a href="{{ routes.search_url }}" class="secondary-nav__link secondary-nav__link--search icon-fallback">
+                        <a href="{{ routes.search_url }}" class="secondary-nav__link secondary-nav__link--search icon-fallback" aria-label="{{ 'layout.navigation.search' | t }}">
                             <i class="icon icon--search" aria-hidden="true"></i>
-                            <span class="icon-fallback__text u-hidden-visually">{{ 'layout.navigation.search' | t }}</span>
+                            {% comment %} <span class="icon-fallback__text u-hidden-visually">{{ 'layout.navigation.search' | t }}</span> {% endcomment %}
                         </a>
                     </li>
                 {% endif %}
