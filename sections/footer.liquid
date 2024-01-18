@@ -90,7 +90,7 @@
                                     {% endunless %}
                                     <ul class="footer-nav__items o-list-bare">
                                         {% for link in linklists[block.settings.linklist].links %}
-                                            <li class="footer-nav__item{% if link.active %} footer-nav__item--active{% endif %}"><a href="{{ link.url }}" class="footer-nav__link">{{ link.title }}</a></li>
+                                            <li class="footer-nav__item{% if link.active %} footer-nav__item--active{% endif %}"><a href="{{ link.url }}" class="footer-nav__link" target="_blank" aria-label="{{ link.title }} , This Link Opens in New Window">{{ link.title }}</a></li>
                                         {% endfor %}
                                     </ul>
                                 </div>
@@ -475,7 +475,7 @@
             <div class="footer__bottom__right">
                 <div class="footer-copyright">
                     <p class="footer-copyright__text">
-                        <span class="footer-copyright__span footer-copyright__span--powered" target="_blank" aria-label="{{ powered_by_link }}, This link opens in new window">{{ powered_by_link }}</span>
+                        <a class="footer-copyright__span footer-copyright__span--powered" target="_blank" aria-label="{{ powered_by_link }}, This link opens in new window">{{ powered_by_link }}</a>
                         <span class="footer-copyright__span footer-copyright__span--shop">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name }}</span>
                     </p>
                 </div>
