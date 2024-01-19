@@ -25,7 +25,7 @@ $(document).ready(function() {
         var ariaLabelText = 'Slider Button for ' + altText;
         
         // Setting aria-label for the button
-        $(this).attr('aria-label', ariaLabelText);
+        $(this).attr('title', ariaLabelText);
     });
 });
 }, 2000);
