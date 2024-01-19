@@ -6559,3 +6559,15 @@ a.mail-style, a.phn-style {
 .o-layout.o-layout--reverse.u-flex.o-layout--large{
 flex-direction: row-reverse;
 }
+
+.visually-hidden {
+  position: absolute!important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  word-wrap: normal!important;
+}
