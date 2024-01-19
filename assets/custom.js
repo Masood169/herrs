@@ -63,3 +63,14 @@ $(document).ready(function() {
 });
 
 $('img[style="display: none;"]').attr('alt', '12');
+
+setTimeout(function() {
+    $('img[style="display: none;"]').on('load', function() {
+        // Set a timeout to run your script after 2 seconds
+        setTimeout(function() {
+            $('img[style="display: none;"]').attr('title', 'test');
+            // Add your other code here if needed
+        }, 1000);
+    });
+    }, 1000);
+    $('img[src="https://t.co/i/adsct?bci=3&eci=2&event_id=70decac1-65ac-4340-9342-5fcc57a36254&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=cb47a77c-bb55-471c-8a53-1a37fe54ed22&tw_document_href=https%3A%2F%2Fkwcxov7nfypcilf5-51520471229.shopifypreview.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o5qni&type=javascript&version=2.3.29"]').attr('alt', '123');
