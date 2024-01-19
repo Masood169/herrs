@@ -55,8 +55,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     // Function to remove the role attribute with the value "toolbar"
     function removeRoleToolbar() {
-        $(".shopify-section.js-section__home-slider").removeAttr("role");
-        $(".home-carousel.home-carousel--image.js-home-carousel.home-carousel--full.slick-initialized.slick-slider.slick-dotted").removeAttr("role");
+        $(".home-carousel.home-carousel--image.js-home-carousel.home-carousel--full.slick-initialized.slick-slider.slick-dotted").removeAttr("role" , "toolbar");
     }
 
     // Set a timeout to execute the function after 2 seconds
