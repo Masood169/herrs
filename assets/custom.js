@@ -62,4 +62,4 @@ $(document).ready(function() {
     setTimeout(removeRoleToolbar, 2000);
 });
 
-$('img[style="display: none;"]').attr('alt', '.');
+$('img[style="display: none;"]').attr('alt', '12');
