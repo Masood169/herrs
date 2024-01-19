@@ -6571,3 +6571,6 @@ flex-direction: row-reverse;
   clip: rect(0 0 0 0);
   word-wrap: normal!important;
 }
+h2.product__title.h4{
+  background-color: #fff;
+}
