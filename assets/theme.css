@@ -6571,7 +6571,7 @@ flex-direction: row-reverse;
   clip: rect(0 0 0 0);
   word-wrap: normal!important;
 }
-h2.product__title.h4{
+h2.product__title.h4, body#shop-herr-39-s-online{
   background-color: #00000001;
 }
 .visuallyhidden.focusable:active,
