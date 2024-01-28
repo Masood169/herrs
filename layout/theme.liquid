@@ -121,7 +121,7 @@
     })(window, document, "clarity", "script", "gf73gszfeq");
 </script>
 </head>
-
+<a class="visuallyhidden focusable skip-link" href="#main-content">Skip to content</a>
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" data-anim-fade="{{ settings.anim_fade }}" data-anim-load="{{ settings.anim_load }}" data-anim-interval-style="{{ settings.anim_interval_style }}" data-anim-zoom="{{ settings.anim_zoom }}" data-anim-interval="{% if settings.anim_load_style == 'interval' %}true{% else %}false{% endif %}" data-heading-border="{{ settings.type_header_underline }}">
   
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH2HR6Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -143,7 +143,7 @@
 		{% section 'mobile-drawer' %}
 		{% section 'announcement' %}
 		{% section 'header' %}
-   
+		<main id="main-content" role="main" tabindex="-1">
 		<div class="main">
 			{{ content_for_layout }}
 		</div>
