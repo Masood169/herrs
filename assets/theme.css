@@ -6602,3 +6602,6 @@ flex-direction: row-reverse;
   padding: 1em;
   z-index: 10000;
 }
+h2.product__title.h4 {
+    color: #157893;
+}
