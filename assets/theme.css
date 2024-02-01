@@ -6605,3 +6605,8 @@ flex-direction: row-reverse;
 h2.product__title.h4, h2.section__title-text {
     color: #157893;
 }
+.bundle-builder-app--bundle--product-add--wrapper button.bundle-builder-app--button.bundle-builder-app--bundle--product-add-button span > span{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
