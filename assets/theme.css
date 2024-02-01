@@ -6602,6 +6602,6 @@ flex-direction: row-reverse;
   padding: 1em;
   z-index: 10000;
 }
-h2.product__title.h4 {
+h2.product__title.h4, h2.section__title-text {
     color: #157893;
 }
