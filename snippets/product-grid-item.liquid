@@ -123,9 +123,9 @@
         {% unless settings.product_grid_quick_buy == 'disabled' %}
             <div class="product-btn product-btn--{{ settings.product_grid_quick_buy }}">
                 {% if product.available == false %}
-                    <a href="#" class="c-btn c-btn--full c-btn--light c-btn--small-tab product-btn__btn">{{ 'products.product.sold_out' | t }}</a>
+                    <a href="{{ product.url | within: collection }}" class="c-btn c-btn--full c-btn--light c-btn--small-tab product-btn__btn">{{ 'products.product.sold_out' | t }}</a>
                 {% elsif product.variants.size > 1 %}
-                    <a href="#" class="c-btn c-btn--full c-btn--primary c-btn--arrow c-btn--small-tab product-btn__btn">{{ 'products.product.select_options' | t }}</a>
+                    <a href="{{ product.url | within: collection }}" class="c-btn c-btn--full c-btn--primary c-btn--arrow c-btn--small-tab product-btn__btn">{{ 'products.product.select_options' | t }}</a>
                 {% else %}
                     {% form 'product', product, data-productid: product.id, class: "js-product-form" %}
                         <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.variants.first.id }}" />
@@ -136,10 +136,9 @@
                 {% endif %}
             </div>
         {% endunless %}
-    </a>
-    </div>
+ 
 
-    <a href="{{ product.url | within: collection }}" class="product-link js-product-link{% if page == 'home' %} home-products__link{% endif %}" title="{{ product.title }}">
+
         <div class="product__details">
             <h2 class="product__title h4">{{ product.title }}</h2>
           <div data-bv-show="inline_rating" data-bv-product-id="{{product.id}}" data-bv-redirect-url="{{ product.url }}" data-bv-seo="false"></div>
