@@ -118,7 +118,7 @@
                 </div>
 
             </div>
-   
+     
 
         {% unless settings.product_grid_quick_buy == 'disabled' %}
             <div class="product-btn product-btn--{{ settings.product_grid_quick_buy }}">
@@ -136,8 +136,9 @@
                 {% endif %}
             </div>
         {% endunless %}
-    
+    </div>
 
+ 
         <div class="product__details">
             <h2 class="product__title h4">{{ product.title }}</h2>
           <div data-bv-show="inline_rating" data-bv-product-id="{{product.id}}" data-bv-redirect-url="{{ product.url }}" data-bv-seo="false"></div>
@@ -145,7 +146,7 @@
             {% if settings.product_grid_vendor %}
                 <h4 class="product__vendor h6">{{ product.vendor }}</h4>
             {% endif %}
-   
+
             <div class="product__details__hover">
                 {% if settings.product_grid_price %}
                     <p class="product__price h5">
@@ -168,7 +169,5 @@
       
      
     </a>
-</div>
-
 
 </div>
