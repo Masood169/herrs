@@ -84,7 +84,7 @@
                         {% for i in (1..product_limit) %}
                             <div class="o-layout__item {{ grid_item_width }}">
                                 <a href="#" class="product-link home-products__link">
-                                    <div class="product home-products__item product--{{ settings.product_grid_align }}">
+                                    <div class="dd product home-products__item product--{{ settings.product_grid_align }}">
                                         <div class="product__media u-bg-{{ settings.product_grid_bg }}">
                                             {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
                                             {{ 'product-' | append: current | placeholder_svg_tag: 'product__img placeholder-svg placeholder-svg--light' }}
