@@ -65,12 +65,12 @@ $(document).ready(function() {
 $('img[style="display: none;"]').attr('alt', '12');
 
 setTimeout(function() {
-    $('img[style="display: none;"]').on('load', function() {
+    $('img[src="https://t.co/i/adsct?bci=3&eci=2&event_id=2b813605-945f-4e78-808b-dbe1396e2401&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=8c85535e-29e4-4605-aa0b-3be399d77a71&tw_document_href=https%3A%2F%2Fshop.herrs.com%2Fcollections%2Fkettle-cooked&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o5qni&type=javascript&version=2.3.29"]').on('load', function() {
         // Set a timeout to run your script after 2 seconds
         setTimeout(function() {
-            $('img[style="display: none;"]').attr('title', 'test');
+            $('img[src="https://t.co/i/adsct?bci=3&eci=2&event_id=2b813605-945f-4e78-808b-dbe1396e2401&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=8c85535e-29e4-4605-aa0b-3be399d77a71&tw_document_href=https%3A%2F%2Fshop.herrs.com%2Fcollections%2Fkettle-cooked&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o5qni&type=javascript&version=2.3.29"]').attr('alt', '');
             // Add your other code here if needed
-        }, 1000);
+        }, 2000);
     });
-    }, 1000);
-    $('img[src="https://t.co/i/adsct?bci=3&eci=2&event_id=70decac1-65ac-4340-9342-5fcc57a36254&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=cb47a77c-bb55-471c-8a53-1a37fe54ed22&tw_document_href=https%3A%2F%2Fkwcxov7nfypcilf5-51520471229.shopifypreview.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o5qni&type=javascript&version=2.3.29"]').attr('alt', '123');
+    }, 2000);
+    
