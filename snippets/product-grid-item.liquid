@@ -1,8 +1,8 @@
 {%- unless image_sizes -%}
     {%- assign image_sizes = '100vw' -%}
 {%- endunless -%}
-<a href="{{ product.url | within: collection }}" aria-label="{{product.title}}" class="mylink"></a>
 <div class="product js-product{% if settings.product_grid_detail_style == 'hover' %} product--details-hover{% endif %}{% unless product.available %} product--sold-out{% endunless %}{% if product.compare_at_price > product.price and product.available %} product--sale{% endif %} product--{% if settings.product_grid_image_size contains "crop" %}crop{% elsif settings.product_grid_image_size contains "fit" %}fit{% else %}natural{% endif %} product--{{ settings.product_grid_align }}{% if page == 'home' %} home-products__item{% endif %} ">
+<a href="{{ product.url | within: collection }}" aria-label="{{product.title}}" class="mylink"></a>
 
     {% if settings.product_grid_label %}
 
