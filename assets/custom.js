@@ -74,3 +74,6 @@ setTimeout(function() {
     });
     }, 2000);
     
+    $('a[aria-label="4.1 out of 5 stars. 7 reviews "]').attr('href', '#');
+    $('a[aria-label="5.0 out of 5 stars. 1 review  "]').attr('href', '#');
+    $('a[aria-label="0.0 out of 5 stars. "]').attr('href', '#');
