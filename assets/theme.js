@@ -1096,6 +1096,7 @@ theme.productSelect = function(sectionId, cssClass, historyState) {
   $('.js-product-single-swatch :radio').on('change', function() {
 
 	var optionIndex = $(this).closest('.js-product-single-swatch').attr('data-option-index');
+	var optionIndex = $(this).closest('.js-product-single-swatch').attr('aria-label, product variations');
 	var optionValue = $(this).val();
 
 	$(this)
