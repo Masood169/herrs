@@ -3,8 +3,9 @@
 /-----------------------------------------------------------------------------*/
 
 // Insert any custom theme js here...
-console.log('label for select')
-$('.product-single__variant.product-single__variant--buttons select').attr('aria-label', 'product-variations');
+console.log("Hello world!");
+$('.product-single__variant.product-single__variant--buttons select.single-option-selector').attr('aria-label', 'product-variations');
+
 // Wait for the iframe to load
 setTimeout(function() {
 $('div#WebPixelsManagerSandboxContainer + script + iframe').on('load', function() {
