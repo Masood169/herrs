@@ -4,6 +4,7 @@
 
 // Insert any custom theme js here...
 $('a[aria-label="4.1 out of 5 stars. 7 reviews "]').attr('href', '#');
+console.log('sss')
 $('a[aria-label="5.0 out of 5 stars. 1 review  "]').attr('href', '#');
 $('a[aria-label="0.0 out of 5 stars. "]').attr('href', '#');
 // Wait for the iframe to load

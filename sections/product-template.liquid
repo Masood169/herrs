@@ -471,7 +471,7 @@
                           
                                             <div class="product-single__variant product-single__variant--{{ section.settings.product_variant_style }}">
 
-                                                <select name="id" data-productid="{{ product.id }}" id="productSelect-1" class="product-single__variant-select js-product-variant-select">
+                                                <select name="id" aria-label="product variations drop-down" data-productid="{{ product.id }}" id="productSelect-1" class="product-single__variant-select js-product-variant-select">
                                                     {% for variant in product.variants %}
                                                         {% if variant.available %}
                                                             <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} data-sku="{{ variant.sku }}" value="{{ variant.id }}"{% if section.settings.show_inventory %} data-qty="{{ variant.inventory_quantity }}"{% endif %}>{{ variant.title }}</option>
