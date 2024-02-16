@@ -110,10 +110,9 @@
                             height="{{ 300 | divided_by: product.featured_media.preview_image.aspect_ratio | round }}"
                             {% if collection.handle == 'choose-your-own-variety' %}
                                 alt="{{ product.title }}"
-                                {% elsif product.handle == 'truck-box' %}
-                                alt="{{ product.title }}"
+                                
                                 {% else %}
-                            alt="{{ product.featured_media.preview_image.alt }}"
+                            alt="{{ product.title }}"
                             {% endif %}
                             loading="lazy"
                         />
@@ -122,6 +121,7 @@
 
             </div>
         </a>
+                            {% comment %} alt="{{ product.featured_media.preview_image.alt }}" {% endcomment %}
 
         {% unless settings.product_grid_quick_buy == 'disabled' %}
             <div class="product-btn product-btn--{{ settings.product_grid_quick_buy }}">
