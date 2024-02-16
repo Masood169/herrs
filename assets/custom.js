@@ -4,7 +4,11 @@
 
 // Insert any custom theme js here...
 console.log("Hello world!");
-$('.product-single__variant.product-single__variant--buttons select.single-option-selector').attr('aria-label', 'product-variations');
+$(window).on('load', function() {
+    setTimeout(function() {
+        $('.product-single__variant.product-single__variant--buttons select.single-option-selector').attr('aria-label', 'product-variations');
+    }, 2000); // 2000 milliseconds = 2 seconds
+});
 
 // Wait for the iframe to load
 setTimeout(function() {
