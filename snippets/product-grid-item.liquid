@@ -110,6 +110,8 @@
                             height="{{ 300 | divided_by: product.featured_media.preview_image.aspect_ratio | round }}"
                             {% if collection.handle == 'choose-your-own-variety' %}
                                 alt="{{ product.title }}"
+                                {% elsif product.featured_media.preview_image.alt == 'blank' %}
+                                alt="{{ product.title }}"
                                 {% else %}
                             alt="{{ product.featured_media.preview_image.alt }}"
                             {% endif %}
