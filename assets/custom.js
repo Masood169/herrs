@@ -78,7 +78,4 @@ setTimeout(function() {
             // Add your other code here if needed
         }, 2000);
     });
-   
-    }, 2000);
-    
-   
+   }, 2000);
