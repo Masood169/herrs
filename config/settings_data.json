@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_headings": "#37bee3",
@@ -54,7 +63,7 @@
     "cart_vendor_enable": false,
     "cart_continue": true,
     "cart_terms": true,
-    "cart_terms_text": "<p>I agree to the <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Shipping terms and conditions <\/a><\/p><ul><li><strong>NOTE: West coast and high altitude shipping may cause bags to pop. Please order accordingly.<\/strong><\/li><\/ul>",
+    "cart_terms_text": "<p>I agree to the <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Shipping terms and conditions </a></p><ul><li><strong>NOTE: West coast and high altitude shipping may cause bags to pop. Please order accordingly.</strong></li></ul>",
     "search_enable": true,
     "search_limit": "product,article,page",
     "search_linklist": "main-menu",
@@ -63,17 +72,17 @@
     "share_pinterest": false,
     "share_fancy": false,
     "share_mail": true,
-    "social_facebook_link": "https:\/\/www.facebook.com\/herrs",
-    "social_twitter_link": "https:\/\/twitter.com\/herrfoods",
+    "social_facebook_link": "https://www.facebook.com/herrs",
+    "social_twitter_link": "https://twitter.com/herrfoods",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/herrs.snacks\/",
+    "social_instagram_link": "https://www.instagram.com/herrs.snacks/",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/user\/HerrFoodsInc",
+    "social_youtube_link": "https://www.youtube.com/user/HerrFoodsInc",
     "social_vimeo_link": "",
     "social_fancy_link": "",
     "social_untappd_link": "",
-    "favicon": "shopify:\/\/shop_images\/Screen-Shot-2020-12-14-at-11.16.37-AM.png",
+    "favicon": "shopify://shop_images/Screen-Shot-2020-12-14-at-11.16.37-AM.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -129,7 +138,7 @@
           "newsletter_bg": "rgba(0,0,0,0)",
           "newsletter_style": "default",
           "footer_newsletter_title": "Newsletter",
-          "footer_newsletter_desc": "<p>Sign up to get the latest offers and new product updates<\/p>",
+          "footer_newsletter_desc": "<p>Sign up to get the latest offers and new product updates</p>",
           "footer_bg": "#222222",
           "footer_style": "light",
           "show_payment_icons": true,
@@ -143,7 +152,7 @@
           "show_border": false,
           "header_bg": "#ffffff",
           "header_style": "dark",
-          "logo": "shopify:\/\/shop_images\/herrs-logo.png",
+          "logo": "shopify://shop_images/herrs-logo.png",
           "logo_size": 5,
           "logo_size_mobile": 5,
           "logo_spacing": 3,
@@ -184,7 +193,7 @@
           "enable": false,
           "mobile": false,
           "title": "Popup",
-          "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+          "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.</p>",
           "link_title": "More info",
           "link": "",
           "delay": 10,
@@ -197,7 +206,7 @@
         "settings": {
           "enable": false,
           "title": "Age verification",
-          "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+          "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.</p>",
           "enter_btn_label": "Enter",
           "leave_btn_label": "Leave",
           "leave_link": ""
@@ -273,7 +282,7 @@
             "type": "article",
             "settings": {
               "title": "Article heading",
-              "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+              "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
               "image": ""
             }
           },
@@ -281,7 +290,7 @@
             "type": "article",
             "settings": {
               "title": "Article heading",
-              "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+              "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
               "image": ""
             }
           },
@@ -295,7 +304,7 @@
             "type": "article",
             "settings": {
               "title": "Article heading",
-              "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+              "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
               "image": ""
             }
           }
@@ -453,7 +462,7 @@
             "settings": {
               "bg_color": "#f0f0f0",
               "title": "Image with text",
-              "desc": "<p>Use these blocks to share your brand&#x27;s story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+              "desc": "<p>Use these blocks to share your brand&#x27;s story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
               "video": "",
               "link_title": "More info",
               "link": ""
@@ -464,7 +473,7 @@
             "settings": {
               "bg_color": "#ffffff",
               "title": "Image with text",
-              "desc": "<p>Use these blocks to share your brand&#x27;s story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+              "desc": "<p>Use these blocks to share your brand&#x27;s story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
               "video": "",
               "link_title": "More info",
               "link": ""
@@ -475,7 +484,7 @@
             "settings": {
               "bg_color": "#f0f0f0",
               "title": "Image with text",
-              "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+              "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
               "video": "",
               "link_title": "More info",
               "link": ""
@@ -497,13 +506,13 @@
           "1566456319558-0": {
             "type": "video",
             "settings": {
-              "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+              "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
             }
           },
           "1566456319558-1": {
             "type": "video",
             "settings": {
-              "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+              "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
             }
           }
         },
@@ -527,8 +536,8 @@
             "type": "map",
             "settings": {
               "title": "Map 1",
-              "desc": "<p>273 Street Lane<br\/>San Francisco, CA 94102<br\/>(415) 557-4400<br\/>store@email.com<\/p>",
-              "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br\/>Friday &amp; Saturday, 12:00 to 00:00<br\/>Sunday, Closed<\/p>",
+              "desc": "<p>273 Street Lane<br/>San Francisco, CA 94102<br/>(415) 557-4400<br/>store@email.com</p>",
+              "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br/>Friday &amp; Saturday, 12:00 to 00:00<br/>Sunday, Closed</p>",
               "address": "100 Larkin St, San Francisco, CA 94102, USA"
             }
           }
@@ -587,7 +596,7 @@
           "image_alignment": "center",
           "delivery_service": "deliveroo",
           "title": "",
-          "desc": "<p>Use a logo and text to link to a delivery partner such as UberEATS or Favor. This section is not intended for products ordered through your Shopify store.<\/p>",
+          "desc": "<p>Use a logo and text to link to a delivery partner such as UberEATS or Favor. This section is not intended for products ordered through your Shopify store.</p>",
           "link_title": "Learn more",
           "link": "",
           "section_height": "medium",
@@ -612,38 +621,38 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Valentines_Store_Homepage_Web_15.jpg",
-              "link": "shopify:\/\/products\/milk-chocolate-pretzel-tubs"
+              "image": "shopify://shop_images/Valentines_Store_Homepage_Web_15.jpg",
+              "link": "shopify://products/milk-chocolate-pretzel-tubs"
             }
           },
           "7e04ad6b-cd5a-4621-9e41-bea84aba69fa": {
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Above_the_Fold_example.jpg",
-              "link": "shopify:\/\/collections\/holiday-treat-shoppe"
+              "image": "shopify://shop_images/Above_the_Fold_example.jpg",
+              "link": "shopify://collections/holiday-shop"
             }
           },
           "160804571519b42dc6-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3_HomepageSlider_copy.jpg",
-              "link": "shopify:\/\/collections\/all"
+              "image": "shopify://shop_images/3_HomepageSlider_copy.jpg",
+              "link": "shopify://collections/all"
             }
           },
           "39df948d-2249-4e4f-9aac-da5801fb454b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Shopify_Header_R2.jpg",
-              "link": "shopify:\/\/collections\/all"
+              "image": "shopify://shop_images/Shopify_Header_R2.jpg",
+              "link": "shopify://collections/all"
             }
           },
           "4a224230-fc75-4d99-8355-4b18e926a4ca": {
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/FBP_2023_Web_Homepage2.jpg",
-              "link": "shopify:\/\/collections\/flavored-by-philly"
+              "image": "shopify://shop_images/FBP_2023_Web_Homepage2.jpg",
+              "link": "shopify://collections/flavored-by-philly"
             }
           }
         },
@@ -666,24 +675,24 @@
           "edeb7433-a82f-49ba-953a-169cc394793f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Shopify_ShopAllProducts.jpg",
+              "image": "shopify://shop_images/Shopify_ShopAllProducts.jpg",
               "image_alignment": "center",
               "text_alignment": "bottom",
               "title": "",
               "text": "",
-              "link": "shopify:\/\/collections\/all-products"
+              "link": "shopify://collections/all-products"
             }
           },
           "16123688512ffe0de1-0": {
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Shopify_Variety.jpg",
+              "image": "shopify://shop_images/Shopify_Variety.jpg",
               "image_alignment": "center",
               "text_alignment": "bottom",
               "title": "",
               "text": "",
-              "link": "shopify:\/\/collections\/choose-your-own-variety"
+              "link": "shopify://collections/choose-your-own-variety"
             }
           },
           "4038ae38-055d-4cfb-9115-7e50581f725d": {
@@ -716,28 +725,28 @@
             "type": "featured_collection",
             "settings": {
               "collection": "potato-chips",
-              "image": "shopify:\/\/shop_images\/Hess-Potato-Chips_colorcorrected_F.png"
+              "image": "shopify://shop_images/Hess-Potato-Chips_colorcorrected_F.png"
             }
           },
           "16125410741d698e34-1": {
             "type": "featured_collection",
             "settings": {
               "collection": "cheese-snacks",
-              "image": "shopify:\/\/shop_images\/Hess-Potato-Chips_colorcorrected_F_c0dfc23c-ad33-497c-a5a2-981d0fd10eb3.png"
+              "image": "shopify://shop_images/Hess-Potato-Chips_colorcorrected_F_c0dfc23c-ad33-497c-a5a2-981d0fd10eb3.png"
             }
           },
           "13edc27e-fa5a-466d-affc-e1ec450afc45": {
             "type": "featured_collection",
             "settings": {
               "collection": "pretzels",
-              "image": "shopify:\/\/shop_images\/Hess-Potato-Chips_colorcorrected_F_bd9c0731-0d81-4322-b977-3714fcc5819d.png"
+              "image": "shopify://shop_images/Hess-Potato-Chips_colorcorrected_F_bd9c0731-0d81-4322-b977-3714fcc5819d.png"
             }
           },
           "1ef7f834-730f-468b-9adc-bc53ca939695": {
             "type": "featured_collection",
             "settings": {
               "collection": "popcorn",
-              "image": "shopify:\/\/shop_images\/Hess-Potato-Chips_colorcorrected_F_ae339749-8751-4f01-b30b-48560d2f6226.png"
+              "image": "shopify://shop_images/Hess-Potato-Chips_colorcorrected_F_ae339749-8751-4f01-b30b-48560d2f6226.png"
             }
           }
         },
@@ -764,29 +773,29 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/FBP_2023_Web_Block.png",
+              "image": "shopify://shop_images/FBP_2023_Web_Block.png",
               "image_alignment": "center",
               "text_alignment": "bottom",
               "title": "",
               "text": "",
-              "link": "shopify:\/\/collections\/flavored-by-philly"
+              "link": "shopify://collections/flavored-by-philly"
             }
           },
           "4be698e7-ade0-4f60-9322-983051091d92-1666618372282612f2-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Shopify_Variety.jpg",
+              "image": "shopify://shop_images/Shopify_Variety.jpg",
               "image_alignment": "center",
               "text_alignment": "bottom",
               "title": "",
               "text": "",
-              "link": "shopify:\/\/collections\/choose-your-own-variety"
+              "link": "shopify://collections/choose-your-own-variety"
             }
           },
           "4be698e7-ade0-4f60-9322-983051091d92-1666618372282612f2-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Boy_Eating_Crisp_n_Tasty.jpg",
+              "image": "shopify://shop_images/Boy_Eating_Crisp_n_Tasty.jpg",
               "image_alignment": "center",
               "text_alignment": "bottom",
               "title": "",
@@ -798,12 +807,12 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sandwichip_Shopify_Block_copy.jpg",
+              "image": "shopify://shop_images/Sandwichip_Shopify_Block_copy.jpg",
               "image_alignment": "center",
               "text_alignment": "bottom",
               "title": "",
               "text": "",
-              "link": "shopify:\/\/collections\/sandwi-chips"
+              "link": "shopify://collections/sandwi-chips"
             }
           }
         },
@@ -838,13 +847,13 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "1386531382474587334": {
-        "type": "shopify:\/\/apps\/bundle-builder\/blocks\/bb-cart-integration\/78802baf-205d-4d1d-908c-fae911f24e36",
+        "type": "shopify://apps/bundle-builder/blocks/bb-cart-integration/78802baf-205d-4d1d-908c-fae911f24e36",
         "disabled": true,
         "settings": {
           "placement": "below",
@@ -870,7 +879,7 @@
         }
       },
       "14044569291296200651": {
-        "type": "shopify:\/\/apps\/bundle-builder\/blocks\/bb-cart-integration-custom\/78802baf-205d-4d1d-908c-fae911f24e36",
+        "type": "shopify://apps/bundle-builder/blocks/bb-cart-integration-custom/78802baf-205d-4d1d-908c-fae911f24e36",
         "disabled": false,
         "settings": {
           "theme_override": "836",
@@ -1012,7 +1021,7 @@
               "type": "text",
               "settings": {
                 "title": "Text area",
-                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+                "text": "<p>Add some text such as a mini biography or your mission statement.</p>"
               }
             }
           },
@@ -1028,7 +1037,7 @@
             "newsletter_bg": "#f0f0f0",
             "newsletter_style": "default",
             "footer_newsletter_title": "Newsletter",
-            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.</p>",
             "footer_bg": "#222222",
             "footer_style": "light",
             "show_payment_icons": true
@@ -1077,7 +1086,7 @@
             "enable": false,
             "mobile": false,
             "title": "Popup",
-            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.</p>",
             "link_title": "More info",
             "link": "",
             "delay": 10,
@@ -1091,7 +1100,7 @@
             "enable": false,
             "image": "",
             "title": "Age verification",
-            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.</p>",
             "enter_btn_label": "Enter",
             "leave_btn_label": "Leave",
             "leave_link": ""
@@ -1163,7 +1172,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             },
@@ -1171,7 +1180,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             },
@@ -1185,7 +1194,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             }
@@ -1282,7 +1291,7 @@
                 "alignment": "left",
                 "text_color": "default",
                 "title": "Image slide",
-                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.</p>",
                 "link_title": "More info",
                 "link": ""
               }
@@ -1296,7 +1305,7 @@
                 "alignment": "left",
                 "text_color": "default",
                 "title": "Image slide",
-                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.</p>",
                 "link_title": "More info",
                 "link": ""
               }
@@ -1424,7 +1433,7 @@
                 "image": "",
                 "bg_color": "#f0f0f0",
                 "title": "Image with text",
-                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
                 "video": "",
                 "link_title": "More info",
                 "link": ""
@@ -1436,7 +1445,7 @@
                 "image": "",
                 "bg_color": "rgba(0,0,0,0)",
                 "title": "Image with text",
-                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
                 "video": "",
                 "link_title": "More info",
                 "link": ""
@@ -1456,14 +1465,14 @@
             "1566456319558-0": {
               "type": "video",
               "settings": {
-                "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
                 "image": ""
               }
             },
             "1566456319558-1": {
               "type": "video",
               "settings": {
-                "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
                 "image": ""
               }
             }
@@ -1499,8 +1508,8 @@
               "type": "map",
               "settings": {
                 "title": "Map 1",
-                "desc": "<p>273 Street Lane<br\/>San Francisco, CA 94102<br\/>(415) 557-4400<br\/>store@email.com<\/p>",
-                "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br\/>Friday &amp; Saturday, 12:00 to 00:00<br\/>Sunday, Closed<\/p>",
+                "desc": "<p>273 Street Lane<br/>San Francisco, CA 94102<br/>(415) 557-4400<br/>store@email.com</p>",
+                "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br/>Friday &amp; Saturday, 12:00 to 00:00<br/>Sunday, Closed</p>",
                 "address": "100 Larkin St, San Francisco, CA 94102, USA",
                 "map_image": ""
               }
@@ -1667,7 +1676,7 @@
               "type": "text",
               "settings": {
                 "title": "Text area",
-                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+                "text": "<p>Add some text such as a mini biography or your mission statement.</p>"
               }
             }
           },
@@ -1683,7 +1692,7 @@
             "newsletter_bg": "#f0f0f0",
             "newsletter_style": "default",
             "footer_newsletter_title": "Newsletter",
-            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.</p>",
             "footer_bg": "#222222",
             "footer_style": "light",
             "show_payment_icons": true
@@ -1732,7 +1741,7 @@
             "enable": false,
             "mobile": false,
             "title": "Popup",
-            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.</p>",
             "link_title": "More info",
             "link": "",
             "delay": 10,
@@ -1746,7 +1755,7 @@
             "enable": false,
             "image": "",
             "title": "Age verification",
-            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.</p>",
             "enter_btn_label": "Enter",
             "leave_btn_label": "Leave",
             "leave_link": ""
@@ -1818,7 +1827,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             },
@@ -1826,7 +1835,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             },
@@ -1840,7 +1849,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             }
@@ -1937,7 +1946,7 @@
                 "alignment": "left",
                 "text_color": "default-light",
                 "title": "Image slide",
-                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.</p>",
                 "link_title": "More info",
                 "link": ""
               }
@@ -1951,7 +1960,7 @@
                 "alignment": "left",
                 "text_color": "default-light",
                 "title": "Image slide",
-                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.</p>",
                 "link_title": "More info",
                 "link": ""
               }
@@ -2043,7 +2052,7 @@
                 "image": "",
                 "bg_color": "#f0f0f0",
                 "title": "Image with text",
-                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
                 "video": "",
                 "link_title": "More info",
                 "link": ""
@@ -2055,7 +2064,7 @@
                 "image": "",
                 "bg_color": "#ffffff",
                 "title": "Image with text",
-                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.<\/p>",
+                "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
                 "video": "",
                 "link_title": "More info",
                 "link": ""
@@ -2075,14 +2084,14 @@
             "1566456319558-0": {
               "type": "video",
               "settings": {
-                "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
                 "image": ""
               }
             },
             "1566456319558-1": {
               "type": "video",
               "settings": {
-                "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
                 "image": ""
               }
             }
@@ -2106,8 +2115,8 @@
               "type": "map",
               "settings": {
                 "title": "Map 1",
-                "desc": "<p>273 Street Lane<br\/>San Francisco, CA 94102<br\/>(415) 557-4400<br\/>store@email.com<\/p>",
-                "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br\/>Friday &amp; Saturday, 12:00 to 00:00<br\/>Sunday, Closed<\/p>",
+                "desc": "<p>273 Street Lane<br/>San Francisco, CA 94102<br/>(415) 557-4400<br/>store@email.com</p>",
+                "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br/>Friday &amp; Saturday, 12:00 to 00:00<br/>Sunday, Closed</p>",
                 "address": "100 Larkin St, San Francisco, CA 94102, USA",
                 "map_image": ""
               }
@@ -2148,7 +2157,7 @@
           "settings": {
             "bg_image": "",
             "image_alignment": "center",
-            "text": "<p>Offer some insight into your brand and history. Use images, text and video to describe your value proposition.<\/p>",
+            "text": "<p>Offer some insight into your brand and history. Use images, text and video to describe your value proposition.</p>",
             "inline_image": "",
             "inline_image_width": 200,
             "video": "",
@@ -2183,7 +2192,7 @@
                 "image": "",
                 "title": "Column heading",
                 "sub_title": "Subheading",
-                "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.<\/p>"
+                "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.</p>"
               }
             },
             "1566460912234-1": {
@@ -2192,7 +2201,7 @@
                 "image": "",
                 "title": "Column heading",
                 "sub_title": "Subheading",
-                "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.<\/p>"
+                "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.</p>"
               }
             },
             "1566460912234-2": {
@@ -2201,7 +2210,7 @@
                 "image": "",
                 "title": "Column heading",
                 "sub_title": "Subheading",
-                "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.<\/p>"
+                "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.</p>"
               }
             }
           },
@@ -2226,7 +2235,7 @@
             "delivery_service": "deliveroo",
             "logo_override": "",
             "title": "",
-            "desc": "<p>Use a logo and text to link to a delivery partner such as UberEATS or Favor. This section is not intended for products ordered through your Shopify store.<\/p>",
+            "desc": "<p>Use a logo and text to link to a delivery partner such as UberEATS or Favor. This section is not intended for products ordered through your Shopify store.</p>",
             "link_title": "Learn more",
             "link": "",
             "section_height": "medium",
@@ -2366,7 +2375,7 @@
               "type": "text",
               "settings": {
                 "title": "Text area",
-                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+                "text": "<p>Add some text such as a mini biography or your mission statement.</p>"
               }
             }
           },
@@ -2382,7 +2391,7 @@
             "newsletter_bg": "#f0f0f0",
             "newsletter_style": "default",
             "footer_newsletter_title": "Newsletter",
-            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.</p>",
             "footer_bg": "#232f3d",
             "footer_style": "light",
             "show_payment_icons": true
@@ -2431,7 +2440,7 @@
             "enable": false,
             "mobile": false,
             "title": "Popup",
-            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.</p>",
             "link_title": "More info",
             "link": "",
             "delay": 10,
@@ -2445,7 +2454,7 @@
             "enable": false,
             "image": "",
             "title": "Age verification",
-            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.</p>",
             "enter_btn_label": "Enter",
             "leave_btn_label": "Leave",
             "leave_link": ""
@@ -2517,7 +2526,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             },
@@ -2525,7 +2534,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             },
@@ -2539,7 +2548,7 @@
               "type": "article",
               "settings": {
                 "title": "Article heading",
-                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.<\/p>",
+                "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>",
                 "image": ""
               }
             }
@@ -2636,7 +2645,7 @@
                 "alignment": "left",
                 "text_color": "default-light",
                 "title": "Image slide",
-                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.</p>",
                 "link_title": "More info",
                 "link": ""
               }
@@ -2650,7 +2659,7 @@
                 "alignment": "left",
                 "text_color": "default-light",
                 "title": "Image slide",
-                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+                "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.</p>",
                 "link_title": "More info",
                 "link": ""
               }
@@ -2775,14 +2784,14 @@
             "1566456319558-0": {
               "type": "video",
               "settings": {
-                "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
                 "image": ""
               }
             },
             "1566456319558-1": {
               "type": "video",
               "settings": {
-                "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
                 "image": ""
               }
             }
@@ -2806,8 +2815,8 @@
               "type": "map",
               "settings": {
                 "title": "Map 1",
-                "desc": "<p>273 Street Lane<br\/>San Francisco, CA 94102<br\/>(415) 557-4400<br\/>store@email.com<\/p>",
-                "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br\/>Friday &amp; Saturday, 12:00 to 00:00<br\/>Sunday, Closed<\/p>",
+                "desc": "<p>273 Street Lane<br/>San Francisco, CA 94102<br/>(415) 557-4400<br/>store@email.com</p>",
+                "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br/>Friday &amp; Saturday, 12:00 to 00:00<br/>Sunday, Closed</p>",
                 "address": "100 Larkin St, San Francisco, CA 94102, USA",
                 "map_image": ""
               }
