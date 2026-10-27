@@ -20,17 +20,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
                     @font-face {
                       font-family: "Font name";
-                      src: url("{{ '[Calderock Regular.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2FCalderock+Regular.ttf }}") format("[font-format]");
+                      src: url("{{ '[Calderock Regular.ttf]' | https: admin.shopify.com.store.herrsbuyonline.themes['117895823549?'].key.assets['2FCalderock'].Regular.ttf }}") format("[font-format]");
                     }
 
                     @font-face {
                       font-family: "Font name";
-                      src: url("{{ '[fredoka-one.one-regular.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2Ffredoka-one.one-regular.ttf }}") format("[font-format]");
+                      src: url("{{ '[fredoka-one.one-regular.ttf]' | https: admin.shopify.com.store.herrsbuyonline.themes['117895823549?'].key.assets['2Ffredoka-one'].one-regular.ttf }}") format("[font-format]");
                     }
 
                     @font-face {
                       font-family: "Font name";
-                      src: url("{{ '[Poppins Regular 400.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2FPoppins+Regular+400.ttf }}") format("[font-format]");
+                      src: url("{{ '[Poppins Regular 400.ttf]' | https: admin.shopify.com.store.herrsbuyonline.themes['117895823549?'].key.assets['2FPoppins'].Regular['400'].ttf }}") format("[font-format]");
                     }
 
                 .sec-h1{
@@ -707,4 +707,25 @@
 
     	</div>
 	</div>
-</section>
+</section>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{{ '[Calderock Regular.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2FCalderock+Regular.ttf
+    }}"
+  to: "{{ '[Calderock Regular.ttf]' | https: admin.shopify.com.store.herrsbuyonline.themes['117895823549?'].key.assets['2FCalderock'].Regular.ttf
+    }}"
+  position: 732..873
+- from: "{{ '[fredoka-one.one-regular.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2Ffredoka-one.one-regular.ttf
+    }}"
+  to: "{{ '[fredoka-one.one-regular.ttf]' | https: admin.shopify.com.store.herrsbuyonline.themes['117895823549?'].key.assets['2Ffredoka-one'].one-regular.ttf
+    }}"
+  position: 1037..1190
+- from: "{{ '[Poppins Regular 400.ttf]' | https://admin.shopify.com/store/herrsbuyonline/themes/117895823549?key=assets%2FPoppins+Regular+400.ttf
+    }}"
+  to: "{{ '[Poppins Regular 400.ttf]' | https: admin.shopify.com.store.herrsbuyonline.themes['117895823549?'].key.assets['2FPoppins'].Regular['400'].ttf
+    }}"
+  position: 1354..1502
+{%- endcomment -%}
